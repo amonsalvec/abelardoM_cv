@@ -95,14 +95,14 @@
             Agroindustrial)</p> 
         <h3> Trabajos Dirigidos</h3>
             <ul>
-                <li>Codirector de Tesis Doctoral del Dr. Pedro Harmath,  <i>“Análisis y Estimación de Medidas de Pobreza Unidimensionales bajo la Teoría de Procesos Empíricos Bootstrap”</i>,  Universidad Centroccidental “Lisandro Alvarado”, Barquisimeto 2018</li>
-                <li>Director de Trabajo Final de Grado de la Lic. Dellys Matos.<i>“Metodología ROC en la Evaluación de Factores de Riesgo Cardiovascular como Marcadores del Tejido Adiposo Epicárdico</i>. “Universidad Centroccidental “Lisandro Alvarado” Barquisimeto 2015. 
+                <li><strong>Codirector de Tesis Doctoral</strong> del Dr. Pedro Harmath,  <i>“Análisis y Estimación de Medidas de Pobreza Unidimensionales bajo la Teoría de Procesos Empíricos Bootstrap”</i>,  Universidad Centroccidental “Lisandro Alvarado”, Barquisimeto 2018</li>
+                <li><strong>Director de Trabajo Final de Grado</strong> de la Lic. Dellys Matos.<i>“Metodología ROC en la Evaluación de Factores de Riesgo Cardiovascular como Marcadores del Tejido Adiposo Epicárdico</i>. “Universidad Centroccidental “Lisandro Alvarado” Barquisimeto 2015. 
                 </li>
-                <li>Director de Trabajo Final de Grado del Lic. Rafael González,
+                <li><strong>Director de Trabajo Final de Grado</strong> del Lic. Rafael González,
                     <i>Procesos Puntuales, Teoría y Aplicaciones Prácticas</i> 
                     Universidad Centroccidental “Lisandro Alvarado” Barquisimeto 2014 
                     . </i> </li>
-                 <li>Director de Trabajo Final de Grado de la Lic. Karla Carrero, 
+                 <li><strong>Director de Trabajo Final de Grado</strong> de la Lic. Karla Carrero, 
                     <i>Un Modelo Vectorial Autorregresivo para la Modelización de la Inflación en Venezuela</i>,
                     Universidad Centroccidental “Lisandro Alvarado” Barquisimeto 2013.
                      </li>
