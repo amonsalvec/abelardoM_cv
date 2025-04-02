@@ -1,6 +1,6 @@
 body {
-    /* background-image: url('banner_6.jpeg'); */
-    /* background-size: cover; */
+    background-image: url('./img/banner_6.jpg'); 
+    background-size: cover; 
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -10,16 +10,16 @@ body {
 }
 
 #header {
-    /* background-image: url('mi_foto2.jpeg'); */
+    background-image: url('./img/banner_6.jpg');
     background: rgba(0, 0, 0, 0.9);
     padding: 20px 0;
     text-align: center;
-    /* color: white; */
+    color: white;
     border-bottom: 5px solid #ff8c00f1;
 }
 
 #header img {
-    /* border: 5px solid white; */
+    border: 5px solid white;
     /* box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8); */
 }
 
