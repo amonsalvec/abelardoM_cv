@@ -24,7 +24,7 @@
                 <li><strong>Teléfono:</strong> 663492763</li>
                 <li><strong>Ubicación:</strong> Bilbao, País Vasco, España</li>
             </ul>
-            <h3 class="mt-4">Experiencia Profesional</h3>
+        <h3 class="mt-4">Experiencia Profesional</h3>
             <ul> 
                 <li><p><strong>Tecnico de Investigación</strong> - BCAM-Basque Center for Applied Mathematics (2020 - 2024). Bilbao, País Vasco, España.</p>
                     <strong>Responsabilidades</strong>
@@ -77,33 +77,32 @@
                 <li><p><strong>Desarrollo de aplicaciones JAVA:
                         Componentes Web y aplicaciones de base de datos (JSP y JPA)</strong> - IPARTEK Servicios Informáticos, SOC.COOP-(Enero 2025) 190 Hrs</p>
                 </li>     
-                    <li><p><strong>Business Intelligence: modelización y visualización de datos con excel y power
-                        BI</strong> - IPARTEK Servicios Informáticos, SOC.COOP-(Noviembre 2024) 60 Hrs</p>
-                    </li>    
-                    <li><p><strong>Desarrollo de aplicaciones Web con HTML5, CSS3, JavaScript y JAVA</strong> - IPARTEK Servicios Informáticos, SOC.COOP-(Octubre 2024) 180 Hrs</p>
-                    </li>
-                    <li><p><strong>Ciberseguridad avanzada en entornos de las Tecnologías de la Operación</strong> - Mainjobs Internacional Educativa y Tecnológica, S.A.-(Diciembre 2024) 120 Hrs</p>
-                    </li>      
-                    <li><p><strong>Tutorización del aprendizaje en la empresa</strong>. Fundación Estatal para la formación en el empleo,SEPE.2024.</p>
-                    </li>
-                    <li><p><strong>Switching CISCO CCNP</strong>, Eductrade Abril-Mayo 2024.    
-                    </li> 
-                    <li><p><strong>Machine Learning APLICADO USANDO PYTHON</strong>, 150 horas, Plan Formativo PLAN ESTATAL TRANSFORMACIÓN DIGITAL Julio 2022.
-                    </li>
-                    <li><p><strong>Data Mining para Bases de Datos Clinicas</strong>, Universidad de Glasgow, Nov. 2022 <strong>
-                    </li> 
-                    <li><p><strong>Inteligencia Artificial APLICADA A LA EMPRESA</strong>, G12 GRUPO EMPRESARIAL DE SERVICIOS S.L. 2022.
-                    </li>
-                    <li><p><strong>Arquitectura Big Data</strong>, con una duración de 165 horas, Madrid, Diciembre 2022. Hedima.
-                    </li>
-                    <li><p><strong> Análista de Datos masivos y científico de datos</strong>, INDICE - Consorci per la Formació Contínua de Catalunya, 310 horas. Agosto 2022.
-                    </li>
-                    <li><p><strong>Desarrollo Web para comercio electrónica</strong>, Marzo 2024, 150 horas. Business School 10e. 
-                    </li>
-                    <li><p><strong>Tecnologías habilitadoras digitales para la gestión de dispositivos, contenidos y datos en el entorno profesional</strong>, Ministerio de Educación y Formación profesional. Octubre 2023.</p>
-                    </li>
-                    <li><p><strong>Digitalización Aplicada al Sector Productivo</strong>, Confederación Española de Organizaciones Empresariales (CEOE), Octubre 2022., 200 horas, 2024.</p>
-                    </li>
+                <li><p><strong>Business Intelligence: modelización y visualización de datos con excel y power BI</strong> - IPARTEK Servicios Informáticos, SOC.COOP-(Noviembre 2024) 60 Hrs</p>
+                </li>    
+                <li><p><strong>Desarrollo de aplicaciones Web con HTML5, CSS3, JavaScript y JAVA</strong> - IPARTEK Servicios Informáticos, SOC.COOP-(Octubre 2024) 180 Hrs</p>
+                </li>
+                <li><p><strong>Ciberseguridad avanzada en entornos de las Tecnologías de la Operación</strong> - Mainjobs Internacional Educativa y Tecnológica, S.A.-(Diciembre 2024) 120 Hrs</p>
+                </li>      
+                <li><p><strong>Tutorización del aprendizaje en la empresa</strong>. Fundación Estatal para la formación en el empleo,SEPE.2024.</p>
+                </li>
+                <li><p><strong>Switching CISCO CCNP</strong>, Eductrade Abril-Mayo 2024.    
+                </li> 
+                <li><p><strong>Machine Learning APLICADO USANDO PYTHON</strong>, 150 horas, Plan Formativo PLAN ESTATAL TRANSFORMACIÓN DIGITAL Julio 2022.
+                </li>
+                <li><p><strong>Data Mining para Bases de Datos Clinicas</strong>, Universidad de Glasgow, Nov. 2022 <strong>
+                </li> 
+                <li><p><strong>Inteligencia Artificial APLICADA A LA EMPRESA</strong>, G12 GRUPO EMPRESARIAL DE SERVICIOS S.L. 2022.
+                </li>
+                <li><p><strong>Arquitectura Big Data</strong>, con una duración de 165 horas, Madrid, Diciembre 2022. Hedima.
+                </li>
+                <li><p><strong> Análista de Datos masivos y científico de datos</strong>, INDICE - Consorci per la Formació Contínua de Catalunya, 310 horas. Agosto 2022.
+                </li>
+                <li><p><strong>Desarrollo Web para comercio electrónica</strong>, Marzo 2024, 150 horas. Business School 10e. 
+                </li>
+                <li><p><strong>Tecnologías habilitadoras digitales para la gestión de dispositivos, contenidos y datos en el entorno profesional</strong>, Ministerio de Educación y Formación profesional. Octubre 2023.</p>
+                </li>
+                <li><p><strong>Digitalización Aplicada al Sector Productivo</strong>, Confederación Española de Organizaciones Empresariales (CEOE), Octubre 2022., 200 horas, 2024.</p>
+                </li>
             </ul>   
         <h3>Participación en Asesorías Técnicas</h3>
             <ul> 
