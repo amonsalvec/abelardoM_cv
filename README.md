@@ -44,22 +44,25 @@
                     <li> Miembro del Comité de Doctorado en Matemáticas</li>
                 </ul>
             </li>
-        <li><p><strong>Tesista Contratado </strong> - Instituto de Tecnología Venezolana para el Petróleo,      PDVSA-INTEVEP . (1999-2001). Los Teques, Venezuela</p>
-                <ul><p><strong>Responsabilidades</strong> </p>
-                    <li>Programa Nacional de Tesis en la industria. </li>
-                    <li> Desarrollo de un modelo de clasificación de registros de pozos petrolífero basado en litologías y análisis multifractal</li>
-                </ul>
-        </li>
+            <li><p><strong>Tesista Contratado </strong> - Instituto de Tecnología Venezolana para el Petróleo,      PDVSA-INTEVEP . (1999-2001). Los Teques, Venezuela</p>
+                    <ul><p><strong>Responsabilidades</strong> </p>
+                        <li>Programa Nacional de Tesis en la industria. </li>
+                        <li> Desarrollo de un modelo de clasificación de registros de pozos petrolífero basado en litologías y análisis multifractal</li>
+                    </ul>
+            </li>
+        </ul>
         <h3 class="mt-4">Formación Académica</h3>
-        <li><p><strong>Especialización en Deep Learning: INFORMED CLINICAL DECISION MAKING</strong> 
-            - Coursera-University of Glasgow-(2023)</p>
-        </li>
-        <li><p><strong>Doctorado en Estadística e Investigación Operativa</strong> - Universidad de Santiago de Compostela-(2011)</p>
-        </li>
-        <li><p><strong>Diploma de Estudios Avanzados</strong> - Universidad de Santiago de Compostela (2008)</p></li>
-        <li><p><strong>Magister Scientiarum en Modelos Aleatorios</strong> - Instituto Venezolano de Investigaciones Científicas (2002)</p>
-        </li>
-        <li><p><strong>Licenciatura en Matemáticas</strong> - Universidad de Los Andes (1998)</p></li>
+        <ul>
+            <li><p><strong>Especialización en Deep Learning: INFORMED CLINICAL DECISION MAKING</strong> 
+                - Coursera-University of Glasgow-(2023)</p>
+            </li>
+            <li><p><strong>Doctorado en Estadística e Investigación Operativa</strong> - Universidad de Santiago de Compostela-(2011)</p>
+            </li>
+            <li><p><strong>Diploma de Estudios Avanzados</strong> - Universidad de Santiago de Compostela (2008)</p></li>
+            <li><p><strong>Magister Scientiarum en Modelos Aleatorios</strong> - Instituto Venezolano de Investigaciones Científicas (2002)</p>
+            </li>
+            <li><p><strong>Licenciatura en Matemáticas</strong> - Universidad de Los Andes (1998)</p></li>
+        </ul>
         <h3 class="mt-4">Habilidades</h3>
         <ul>
             <li>Lenguajes de Programación: R, Python, MATLAB.</li>
