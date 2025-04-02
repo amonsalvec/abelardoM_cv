@@ -1,0 +1,63 @@
+body {
+    background-image: url('fondo_estadistica2.jpeg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif 'Segoe UI', 'Garamond', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS';
+    font-size: smaller;
+    color: #333;
+}
+
+#header {
+    #background-image: url('mi_foto2.jpeg');
+    background: rgba(0, 0, 0, 0.9);
+    padding: 20px 0;
+    text-align: center;
+    /* color: white; */
+    border-bottom: 5px solid #ff8c00f1;
+}
+
+#header img {
+    /* border: 5px solid white; */
+    /* box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8); */
+}
+
+h1, h2 {
+    color: #ffffff;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+.navbar {
+    background: rgba(0, 0, 0, 0.95);
+    padding: 10px;
+}
+
+.navbar a {
+    color: rgb(24, 20, 20);
+    font-weight: bold;
+    /* text-transform: uppercase; */
+}
+
+
+.navbar a:hover {
+    color: rgb(3, 82, 166);
+    text-decoration: underline;
+}
+
+.container {
+    background: rgba(255, 255, 255, 1);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
