@@ -74,65 +74,38 @@
             </ul>
         <h3 class="mt-4">Cursos Disciplinarios</h3>
             <ul>
-                <li><p><strong>Desarrollo de aplicaciones JAVA:
-                        Componentes Web y aplicaciones de base de datos (JSP y JPA)</strong> - IPARTEK Servicios Informáticos, SOC.COOP-(Enero 2025) 190 Hrs</p>
-                </li>     
-                <li><p><strong>Business Intelligence: modelización y visualización de datos con excel y power BI</strong> - IPARTEK Servicios Informáticos, SOC.COOP-(Noviembre 2024) 60 Hrs</p>
-                </li>    
-                <li><p><strong>Desarrollo de aplicaciones Web con HTML5, CSS3, JavaScript y JAVA</strong> - IPARTEK Servicios Informáticos, SOC.COOP-(Octubre 2024) 180 Hrs</p>
-                </li>
-                <li><p><strong>Ciberseguridad avanzada en entornos de las Tecnologías de la Operación</strong> - Mainjobs Internacional Educativa y Tecnológica, S.A.-(Diciembre 2024) 120 Hrs</p>
-                </li>      
-                <li><p><strong>Tutorización del aprendizaje en la empresa</strong>. Fundación Estatal para la formación en el empleo,SEPE.2024.</p>
-                </li>
-                <li><p><strong>Switching CISCO CCNP</strong>, Eductrade Abril-Mayo 2024.    
-                </li> 
-                <li><p><strong>Machine Learning APLICADO USANDO PYTHON</strong>, 150 horas, Plan Formativo PLAN ESTATAL TRANSFORMACIÓN DIGITAL Julio 2022.
-                </li>
-                <li><p><strong>Data Mining para Bases de Datos Clinicas</strong>, Universidad de Glasgow, Nov. 2022 <strong>
-                </li> 
-                <li><p><strong>Inteligencia Artificial APLICADA A LA EMPRESA</strong>, G12 GRUPO EMPRESARIAL DE SERVICIOS S.L. 2022.
-                </li>
-                <li><p><strong>Arquitectura Big Data</strong>, con una duración de 165 horas, Madrid, Diciembre 2022. Hedima.
-                </li>
-                <li><p><strong> Análista de Datos masivos y científico de datos</strong>, INDICE - Consorci per la Formació Contínua de Catalunya, 310 horas. Agosto 2022.
-                </li>
-                <li><p><strong>Desarrollo Web para comercio electrónica</strong>, Marzo 2024, 150 horas. Business School 10e. 
-                </li>
-                <li><p><strong>Tecnologías habilitadoras digitales para la gestión de dispositivos, contenidos y datos en el entorno profesional</strong>, Ministerio de Educación y Formación profesional. Octubre 2023.</p>
-                </li>
-                <li><p><strong>Digitalización Aplicada al Sector Productivo</strong>, Confederación Española de Organizaciones Empresariales (CEOE), Octubre 2022., 200 horas, 2024.</p>
-                </li>
+                <li><p><strong>Desarrollo de aplicaciones JAVA: Componentes Web y aplicaciones de base de datos (JSP y JPA)</strong> - IPARTEK Servicios Informáticos, SOC.COOP-(Enero 2025) 190 Hrs</p></li>     
+                <li><p><strong>Business Intelligence: modelización y visualización de datos con excel y power BI</strong> - IPARTEK Servicios Informáticos, SOC.COOP-(Noviembre 2024) 60 Hrs</p></li>    
+                <li><p><strong>Desarrollo de aplicaciones Web con HTML5, CSS3, JavaScript y JAVA</strong> - IPARTEK Servicios Informáticos, SOC.COOP-(Octubre 2024) 180 Hrs</p></li>
+                <li><p><strong>Ciberseguridad avanzada en entornos de las Tecnologías de la Operación</strong> - Mainjobs Internacional Educativa y Tecnológica, S.A.-(Diciembre 2024) 120 Hrs</p></li>      
+                <li><p><strong>Tutorización del aprendizaje en la empresa</strong>. Fundación Estatal para la formación en el empleo,SEPE.2024.</p></li>
+                <li><p><strong>Switching CISCO CCNP</strong>, Eductrade Abril-Mayo 2024.</p></li> 
+                <li><p><strong>Machine Learning APLICADO USANDO PYTHON</strong>, 150 horas, Plan Formativo PLAN ESTATAL TRANSFORMACIÓN DIGITAL Julio 2022.</p></li>
+                <li><p><strong>Data Mining para Bases de Datos Clinicas</strong>, Universidad de Glasgow, Nov. 2022 </p></li> 
+                <li><p><strong>Inteligencia Artificial APLICADA A LA EMPRESA</strong>, G12 GRUPO EMPRESARIAL DE SERVICIOS S.L. 2022.</li>
+                <li><p><strong>Arquitectura Big Data</strong>, con una duración de 165 horas, Madrid, Diciembre 2022. Hedima.</p></li>
+                <li><p><strong> Análista de Datos masivos y científico de datos</strong>, INDICE - Consorci per la Formació Contínua de Catalunya, 310 horas. Agosto 2022.</li>
+                <li><p><strong>Desarrollo Web para comercio electrónica</strong>, Marzo 2024, 150 horas. Business School 10e</p>.</li>
+                <li><p><strong>Tecnologías habilitadoras digitales para la gestión de dispositivos, contenidos y datos en el entorno profesional</strong>, Ministerio de Educación y Formación profesional. Octubre 2023.</p></li>
+                <li><p><strong>Digitalización Aplicada al Sector Productivo</strong>, Confederación Española de Organizaciones Empresariales (CEOE), Octubre 2022., 200 horas, 2024.</p></li>
             </ul>   
         <h3>Participación en Asesorías Técnicas</h3>
             <ul> 
-                <li><p><strong>Asesor Estadístico Julio 2020 – Octubre 2020.</strong> Observatorio de Universidades-Fundación Laboratorio de Desarrollo Humano (Ladeshu)</p>
-                </li>
-                <li><p><strong>Asesor Estadístico 2015-2017</strong> - Fundacion CIEPE - Fundación CIEPE (Centro de Investigación del Estado para la Producción Experimental Agroindustrial)</p>
-                </li>
+                <li><p><strong>Asesor Estadístico Julio 2020 – Octubre 2020.</strong> Observatorio de Universidades-Fundación Laboratorio de Desarrollo Humano (Ladeshu)</p></li>
+                <li><p><strong>Asesor Estadístico 2015-2017</strong> - Fundacion CIEPE - Fundación CIEPE (Centro de Investigación del Estado para la Producción Experimental Agroindustrial)</p></li>
             </ul>      
         <h3>Participación en Conferencias</h3>
             <ul>
-                <li><p><strong>ARQUITECTURA BIG DATA</strong>, con una duración de 165 horas, Madrid, Diciembre 2022. Hedima.</p>
-                </li>
-                <li><p><strong>Digitalización Aplicada al Sector Productivo</strong>, Confederación Española de Organizaciones Empresariales (CEOE), Octubre 2022., 200 horas, 2024.</p>
-                </li>
+                <li><p><strong>ARQUITECTURA BIG DATA</strong>, con una duración de 165 horas, Madrid, Diciembre 2022. Hedima.</p></li>
+                <li><p><strong>Digitalización Aplicada al Sector Productivo</strong>, Confederación Española de Organizaciones Empresariales (CEOE), Octubre 2022., 200 horas, 2024.</p></li>
             </ul>    
         <h3>Participación en Proyectos</h3>
             <ul>
-                <li><p><strong>PREDICTIVE COGNITIVE MAINTENANCE DECISION SUPPORT SYSTEM (PreCoM) Horizon 2020 de la Unión Europea,H2020-FOF-09-2017</strong>. Factories of the Future. <a href="http://www.itmati.com/precom" target="_blank">http://www.itmati.com/precom</a>
-                </li>
-                <li><p><strong>Diseño y Aplicación de un Modelo para el cálculo del pago del servicio de Transporte de Combustibles Líquidos</strong> PDVSA-ENT</p>
-                </li>
-                <li><p><strong> PROGRAMA DE COMPARACIÓN DE RESULTADOS INTERLABORATORIOS (PCRI)</strong>
-                        Desarrollo WEB del PCRI para la certificación de calidad de los laboratorios.
-                    Fundación CIEPE (Centro de Investigación del Estado para la Producción Experimental
-                        Agroindustrial), Yaracuy, Venezuela</p>
-                </li>
-                <li><p><strong>ANÁLISIS DEL RIESGO DE INCENDIOS FORESTALES:</strong> Desarrollo de un modelo estadístico para la medición del riesgo de fuegos esporádicos, y su pronóstico de ocurrencia a corto plazo. Universidad Centroccidental Lisandro Alvarado, Barquisimeto, Venezuela</p>
-                </li>  
-                <li><p><strong>METODOLOGÍAS Y APLICACIONES EN ESTADÍSTICA SEMIPARAMÉTRICA</strong> Modelización financiera en series de tipos de interés del sector interbancario de España y Europa (UE), en el período previo y durante la crisis bancaria. Universidad de Santiago de Compostela, España</p>
-                </li>
+                <li><p><strong>PREDICTIVE COGNITIVE MAINTENANCE DECISION SUPPORT SYSTEM (PreCoM) Horizon 2020 de la Unión Europea,H2020-FOF-09-2017</strong>. Factories of the Future. <a href="http://www.itmati.com/precom" target="_blank">http://www.itmati.com/precom</a></p></li>
+                <li><p><strong>Diseño y Aplicación de un Modelo para el cálculo del pago del servicio de Transporte de Combustibles Líquidos</strong> PDVSA-ENT</p></li>
+                <li><p><strong> PROGRAMA DE COMPARACIÓN DE RESULTADOS INTERLABORATORIOS (PCRI)</strong>Desarrollo WEB del PCRI para la certificación de calidad de los laboratorios. Fundación CIEPE (Centro de Investigación del Estado para la Producción Experimental Agroindustrial Yaracuy, Venezuela</p></li>
+                <li><p><strong>ANÁLISIS DEL RIESGO DE INCENDIOS FORESTALES:</strong> Desarrollo de un modelo estadístico para la medición del riesgo de fuegos esporádicos, y su pronóstico de ocurrencia a corto plazo. Universidad Centroccidental Lisandro Alvarado, Barquisimeto, Venezuela</p></li>  
+                <li><p><strong>METODOLOGÍAS Y APLICACIONES EN ESTADÍSTICA SEMIPARAMÉTRICA</strong> Modelización financiera en series de tipos de interés del sector interbancario de España y Europa (UE), en el período previo y durante la crisis bancaria. Universidad de Santiago de Compostela, España</p></li>
             </ul>    
         <h3>Participación en Asesorías Técnicas</h3>
             <ul>
