@@ -25,33 +25,41 @@
             <li><strong>Ubicación:</strong> Bilbao, País Vasco, España</li>
         </ul>
         <h3 class="mt-4">Experiencia Profesional</h3>
-        <p><strong>Tecnico de Investigación</strong> - BCAM-Basque Center for Applied Mathematics (2020 - 2024). Bilbao, País Vasco, España.</p>
-        <ul><p><strong>Responsabilidades</strong> </p>
-            <li>Depuración y Análisis de Datos. Desarrollo de Modelos de Regresión Logística, Beta-Binomiales, Supervivencia, Riesgos competitivos y Cura</li>
-            <li>Análisis de Datos Longitudinales. Desarrollo de Modelos de regresión con efectos mixtos análisis de datos de pacientes con enfermedades respiratorias.</li>
-        </ul>
-        <p><strong>Tecnico de Investigación</strong> - ITMATI-Instituto Tecnológico de Matemática Industrial. (2019-Febrero-2020). Santiago de Compostela, Galicia</p>
-        <ul><p><strong>Responsabilidades</strong> </p>
-            <li>Depuración y Análisis de Datos. Desarrollo de un <a href="https://zenodo.org/records/4557168" target="_blank">modulo de software</a> basado en modelos de supervivencia y su integración en un sistema de mantenimiento predictivo y toma de decisiones.</li>
-        </ul>
-        <p><strong>Profesor Titular </strong> - Universidad Centroccidental Lisandro Alvarado. (2001-Enero-2019). Barquisimeto, Venezuela</p>
-        <ul><p><strong>Responsabilidades</strong> </p>
-            <li>Docencia, Investigación y Extensión Universitaria en la Decanato de Ciencias y Tecnología. </li>
-            <li> Jefe de Deapartamento de Investigación de Operaciones y Estadística </li>
-            <li> Miembro del Comité de Doctorado en Matemáticas</li>
-        </ul>
-        <p><strong>Tesista Contratado </strong> - Instituto de Tecnología Venezolana para el Petróleo,  PDVSA-INTEVEP . (1999-2001). Los Teques, Venezuela</p>
-        <ul><p><strong>Responsabilidades</strong> </p>
-            <li>Programa Nacional de Tesis en la industria. </li>
-            <li> Desarrollo de un modelo de clasificación de registros de pozos petrolífero basado en litologías y análisis multifractal</li>
-        </ul>
+        <ul>
+            <li><p><strong>Tecnico de Investigación</strong> - BCAM-Basque Center for Applied Mathematics (2020 - 2024). Bilbao, País Vasco, España.</p>
+                <ul><p><strong>Responsabilidades</strong> </p>
+                    <li>Depuración y Análisis de Datos. Desarrollo de Modelos de Regresión Logística, Beta-Binomiales, Supervivencia, Riesgos competitivos y Cura</li>
+                    <li>Análisis de Datos Longitudinales. Desarrollo de Modelos de regresión con efectos mixtos análisis de datos de pacientes con enfermedades respiratorias.</li>
+                </ul>
+            </li>
+            <li><p><strong>Tecnico de Investigación</strong> - ITMATI-Instituto Tecnológico de Matemática       Industrial. (2019-Febrero-2020). Santiago de Compostela, Galicia</p>
+                <ul><p><strong>Responsabilidades</strong> </p>
+                    <li>Depuración y Análisis de Datos. Desarrollo de un <a href="https://zenodo.org/records/4557168" target="_blank">modulo de software</a> basado en modelos de supervivencia y su integración en un sistema de mantenimiento predictivo y toma de decisiones.</li>
+                </ul>
+            </li>
+            <li><p><strong>Profesor Titular </strong> - Universidad Centroccidental Lisandro Alvarado. (2001-Enero-2019). Barquisimeto, Venezuela</p>
+                <ul><p><strong>Responsabilidades</strong> </p>
+                    <li>Docencia, Investigación y Extensión Universitaria en la Decanato de Ciencias y Tecnología. </li>
+                    <li> Jefe de Deapartamento de Investigación de Operaciones y Estadística </li>
+                    <li> Miembro del Comité de Doctorado en Matemáticas</li>
+                </ul>
+            </li>
+        <li><p><strong>Tesista Contratado </strong> - Instituto de Tecnología Venezolana para el Petróleo,      PDVSA-INTEVEP . (1999-2001). Los Teques, Venezuela</p>
+                <ul><p><strong>Responsabilidades</strong> </p>
+                    <li>Programa Nacional de Tesis en la industria. </li>
+                    <li> Desarrollo de un modelo de clasificación de registros de pozos petrolífero basado en litologías y análisis multifractal</li>
+                </ul>
+        </li>
         <h3 class="mt-4">Formación Académica</h3>
-        <p><strong>Especialización en Deep Learning: INFORMED CLINICAL DECISION MAKING</strong> 
+        <li><p><strong>Especialización en Deep Learning: INFORMED CLINICAL DECISION MAKING</strong> 
             - Coursera-University of Glasgow-(2023)</p>
-        <p><strong>Doctorado en Estadística e Investigación Operativa</strong> - Universidad de Santiago de Compostela-(2011)</p>
-        <p><strong>Diploma de Estudios Avanzados</strong> - Universidad de Santiago de Compostela (2008)</p>
-        <p><strong>Magister Scientiarum en Modelos Aleatorios</strong> - Instituto Venezolano de Investigaciones Científicas (2002)</p>
-        <p><strong>Licenciatura en Matemáticas</strong> - Universidad de Los Andes (1998)</p>
+        </li>
+        <li><p><strong>Doctorado en Estadística e Investigación Operativa</strong> - Universidad de Santiago de Compostela-(2011)</p>
+        </li>
+        <li><p><strong>Diploma de Estudios Avanzados</strong> - Universidad de Santiago de Compostela (2008)</p></li>
+        <li><p><strong>Magister Scientiarum en Modelos Aleatorios</strong> - Instituto Venezolano de Investigaciones Científicas (2002)</p>
+        </li>
+        <li><p><strong>Licenciatura en Matemáticas</strong> - Universidad de Los Andes (1998)</p></li>
         <h3 class="mt-4">Habilidades</h3>
         <ul>
             <li>Lenguajes de Programación: R, Python, MATLAB.</li>
