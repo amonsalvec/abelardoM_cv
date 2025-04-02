@@ -33,7 +33,7 @@
         </ul>
         <p><strong>Tecnico de Investigación</strong> - ITMATI-Instituto Tecnológico de Matemática Industrial. (2019-Febrero-2020). Santiago de Compostela, Galicia</p>
         <ul><p><strong>Responsabilidades</strong> </p>
-            <li>Depuración y Análisis de Datos. Desarrollo de un <a href="https://zenodo.org/records/4557168" target="_blank">modulo de software</a> basado en modelos de supervivencia y su integración en un sistema de mantenimiento predictivo y toma de decisiones. 
+            <li>Depuración y Análisis de Datos. Desarrollo de un <a href="https://zenodo.org/records/4557168" target="_blank">modulo de software</a> basado en modelos de supervivencia y su integración en un sistema de mantenimiento predictivo y toma de decisiones.</li>
         </ul>
         <p><strong>Profesor Titular </strong> - Universidad Centroccidental Lisandro Alvarado. (2001-Enero-2019). Barquisimeto, Venezuela</p>
         <ul><p><strong>Responsabilidades</strong> </p>
