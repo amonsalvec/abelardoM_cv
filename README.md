@@ -82,9 +82,9 @@
                 <li><p><strong>Switching CISCO CCNP</strong>, Eductrade Abril-Mayo 2024.</p></li> 
                 <li><p><strong>Machine Learning APLICADO USANDO PYTHON</strong>, 150 horas, Plan Formativo PLAN ESTATAL TRANSFORMACIÓN DIGITAL Julio 2022.</p></li>
                 <li><p><strong>Data Mining para Bases de Datos Clinicas</strong>, Universidad de Glasgow, Nov. 2022 </p></li> 
-                <li><p><strong>Inteligencia Artificial APLICADA A LA EMPRESA</strong>, G12 GRUPO EMPRESARIAL DE SERVICIOS S.L. 2022.</li>
+                <li><p><strong>Inteligencia Artificial APLICADA A LA EMPRESA</strong>, G12 GRUPO EMPRESARIAL DE SERVICIOS S.L. 2022.</p></li>
                 <li><p><strong>Arquitectura Big Data</strong>, con una duración de 165 horas, Madrid, Diciembre 2022. Hedima.</p></li>
-                <li><p><strong> Análista de Datos masivos y científico de datos</strong>, INDICE - Consorci per la Formació Contínua de Catalunya, 310 horas. Agosto 2022.</li>
+                <li><p><strong> Análista de Datos masivos y científico de datos</strong>, INDICE - Consorci per la Formació Contínua de Catalunya, 310 horas. Agosto 2022.</p></li>
                 <li><p><strong>Desarrollo Web para comercio electrónica</strong>, Marzo 2024, 150 horas. Business School 10e</p>.</li>
                 <li><p><strong>Tecnologías habilitadoras digitales para la gestión de dispositivos, contenidos y datos en el entorno profesional</strong>, Ministerio de Educación y Formación profesional. Octubre 2023.</p></li>
                 <li><p><strong>Digitalización Aplicada al Sector Productivo</strong>, Confederación Española de Organizaciones Empresariales (CEOE), Octubre 2022., 200 horas, 2024.</p></li>
