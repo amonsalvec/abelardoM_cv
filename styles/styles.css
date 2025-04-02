@@ -40,10 +40,7 @@ h1, h2 {
 }
 
 
-.navbar a:hover {
-    color: rgb(3, 82, 166);
-    text-decoration: underline;
-}
+
 
 .container {
     background: rgba(255, 255, 255, 1);
