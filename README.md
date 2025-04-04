@@ -94,11 +94,11 @@
                 <li><p><strong>Asesor Estadístico Julio 2020 – Octubre 2020.</strong> Observatorio de Universidades-Fundación Laboratorio de Desarrollo Humano (Ladeshu)</p></li>
                 <li><p><strong>Asesor Estadístico 2015-2017</strong> - Fundacion CIEPE - Fundación CIEPE (Centro de Investigación del Estado para la Producción Experimental Agroindustrial)</p></li>
             </ul>      
-        <h3>Participación en Conferencias</h3>
+        <!-- <h3>Participación en Conferencias</h3>
             <ul>
                 <li><p><strong>ARQUITECTURA BIG DATA</strong>, con una duración de 165 horas, Madrid, Diciembre 2022. Hedima.</p></li>
                 <li><p><strong>Digitalización Aplicada al Sector Productivo</strong>, Confederación Española de Organizaciones Empresariales (CEOE), Octubre 2022., 200 horas, 2024.</p></li>
-            </ul>    
+            </ul>     -->
         <h3>Participación en Proyectos</h3>
             <ul>
                 <li><p><strong>PREDICTIVE COGNITIVE MAINTENANCE DECISION SUPPORT SYSTEM (PreCoM) Horizon 2020 de la Unión Europea,H2020-FOF-09-2017</strong>. Factories of the Future. <a href="http://www.itmati.com/precom" target="_blank">http://www.itmati.com/precom</a></p></li>
