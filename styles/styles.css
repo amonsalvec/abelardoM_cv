@@ -134,3 +134,11 @@ h1 {
     padding: 3px 0;
     font-size: 1.1em;
 }
+
+
+.navbar a:hover {
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
