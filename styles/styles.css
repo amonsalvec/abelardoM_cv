@@ -142,3 +142,5 @@ h1 {
     display: block;
 }
 
+.lang-content { display: none; }
+.lang-content.active { display: block; }

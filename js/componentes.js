@@ -16,4 +16,14 @@ function cargarHTML(id, archivo) {
   document.addEventListener("DOMContentLoaded", () => {
     cargarHTML("cabecera", "cabecera.html");
     cargarHTML("pie", "pie.html");
+    cargarHTML("cabecera_en", "cabecera_en.html");
+    cargarHTML("pie_en", "pie_en.html");
   });
+
+  function setLanguage(lang) {
+    document.querySelectorAll('.lang-content').forEach(el => el.classList.remove('active'));
+    const selected = document.getElementById('lang-' + lang);
+    if (selected) selected.classList.add('active');
+  }
+
+  
