@@ -13,59 +13,768 @@
 <body>
     <div id="cabecera"></div>
     <!-- ------------------------------------------------------------------------ -->
-    <div class="services_section layout_padding">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h1 class="services_taital">Services</h1>
-                    <p class="services_text">Typesetting industry lorem Ipsum is simply dummy text of the </p>
-                </div>
-            </div>
-            <div class="services_section_2">
-                <div class="row">
-                    <div class="col-lg-4 col-sm-12 col-md-4">
-                        <div class="box_main active">
-                            <div class="house_icon">
-                                <img src="img/banner_5.jpg" class="image_1">
-                                <img src="img/banner_5.jpg" class="image_2">
-                            </div>
-                            <h3 class="decorate_text">Original Coffee</h3>
-                            <p class="tation_text">Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
+    
+    <main class="container mt-5">
+        <div class="cv-box p-4 shadow">
+            <h1 class="text-center">Curriculum Vitae</h1>
+            <p class="text-center job-title">Data Scientist & Investigador Académico</p>
+
+            <!-- Perfil -->
+            <div class="accordion" id="cvAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#perfil">
+                            Perfil
+                        </button>
+                    </h2>
+                    <div id="perfil" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                            <p> Doctor en Estadística e Investigación Operativa con más de 20 años de experiencia en
+                                docencia universitaria, investigación aplicada y modelización matemática y estadística.
+                                He trabajado en centros como BCAM e ITMATI desarrollando modelos predictivos, análisis
+                                de datos longitudinales y técnicas de inteligencia artificial explicable. Especialista
+                                en R, Python y MATLAB, con dominio de desarrollo web. Mi labor combina el rigor
+                                académico con la aplicación práctica en salud, industria y tecnología.
                             </p>
-                            <div class="readmore_bt"><a href="#">Read More</a></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-12 col-md-4">
-                        <div class="box_main">
-                            <div class="house_icon">
-                                <img src="img/Imagen_2.jpeg" class="image_1">
-                                <img src="img/Imagen_2.jpeg" class="image_2">
-                            </div>
-                            <h3 class="decorate_text">20 Coffee Flavors</h3>
-                            <p class="tation_text">Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
-                            </p>
-                            <div class="readmore_bt"><a href="#">Read More</a></div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-sm-12 col-md-4">
-                        <div class="box_main">
-                            <div class="house_icon">
-                                <img src="img/Imagen_3.jpeg" class="image_1">
-                                <img src="img/Imagen_3.jpeg" class="image_2">
-                            </div>
-                            <h3 class="decorate_text">Pleasant Abient</h3>
-                            <p class="tation_text">Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea
-                            </p>
-                            <div class="readmore_bt"><a href="#">Read More</a></div>
                         </div>
                     </div>
                 </div>
+
+                <!-- Información personal -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#infoPersonal">
+                            Información Personal
+                        </button>
+                    </h2>
+                    <div id="infoPersonal" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><strong>Documento de Identidad:</strong> 60345315P</li>
+                                <li><strong>Email:</strong> abelardoemc@gmail.com</li>
+                                <li><strong>Teléfono:</strong> +34 663492763</li>
+                                <li><strong>Ubicación:</strong> Bilbao, Bizkaia-País Vasco, España</li>
+                                <li><a href="linkedin.com/in/abelardo-enrique-monsalve-cobis-239594140"
+                                        target="_blank">Linkedin</a></li>
+                                <li><a href="https://github.com/amonsalvec" target="_blank">GitHub</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experiencia Profesional -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#experiencia">
+                            Experiencia Profesional
+                        </button>
+                    </h2>
+                    <div id="experiencia" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <div class="accordion" id="experienciaItems">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#trabajo1">
+                                            Técnico de Investigación - BCAM (2020 - 2024)
+                                        </button>
+                                    </h2>
+                                    <div id="trabajo1" class="accordion-collapse collapse">
+                                        <div class="accordion-body">
+                                            <p><strong>Responsabilidades</strong></p>
+                                            <ul>
+                                                <li>Depuración y Análisis de Datos. Desarrollo de Modelos de Regresión
+                                                    Logística, Beta-Binomiales, Supervivencia, Riesgos competitivos y
+                                                    Cura</li>
+                                                <li>Análisis de Datos Longitudinales. Desarrollo de Modelos de regresión
+                                                    con efectos mixtos análisis de datos de pacientes con enfermedades
+                                                    respiratorias.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#trabajo2">
+                                            Técnico de Investigación - ITMATI (2019 - 2020)
+                                        </button>
+                                    </h2>
+                                    <div id="trabajo2" class="accordion-collapse collapse">
+                                        <div class="accordion-body">
+                                            <p><strong>Responsabilidades</strong></p>
+                                            <ul>
+                                                <li>Depuración y Análisis de Datos.
+                                                <li>Desarrollo de un <a href="https://zenodo.org/records/4557168"
+                                                        target="_blank">modulo de software</a> basado en modelos de
+                                                    supervivencia y su integración en un sistema de mantenimiento
+                                                    predictivo y toma de decisiones.</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#trabajo3">
+                                            Profesor Titular - Universidad Centroccidental Lisandro Alvarado. (Abril
+                                            2001-Enero-2019). Barquisimeto, Venezuela
+                                        </button>
+                                    </h2>
+                                    <div id="trabajo3" class="accordion-collapse collapse">
+                                        <div class="accordion-body">
+                                            <p><strong>Responsabilidades</strong></p>
+                                            <ul>
+                                                <li>Docencia, Investigación y Extensión Universitaria en la Decanato de
+                                                    Ciencias y Tecnología. </li>
+                                                <li> Jefe de Deapartamento de Investigación de Operaciones y Estadística
+                                                </li>
+                                                <li> Miembro del Comité de Doctorado en Matemáticas</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#trabajo4">
+                                            Tesista Contratado - Instituto de Tecnología Venezolana para el Petróleo,
+                                            PDVSA-INTEVEP . (1999-2001). Los Teques, Venezuela. Programa Nacional de
+                                            Tesis en la industria.
+                                        </button>
+                                    </h2>
+                                    <div id="trabajo4" class="accordion-collapse collapse">
+                                        <div class="accordion-body">
+                                            <p><strong>Responsabilidades</strong></p>
+                                            <ul>
+                                                <li> Desarrollo de un modelo de clasificación de registros de pozos
+                                                    petrolífero basado en litologías y análisis multifractal</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <!-- Puedes seguir agregando más trabajos aquí -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Educación -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#educacion">
+                            Educación
+                        </button>
+                    </h2>
+                    <div id="educacion" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <div class="accordion" id="educacionItems">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#educacion1">
+                                            Especialización en Deep Learning: INFORMED CLINICAL DECISION MAKING</strong>
+                                            - Coursera-University of Glasgow-(2023)
+                                        </button>
+                                    </h2>
+                                    <div id="educacion1" class="accordion-collapse collapse">
+                                        <div class="accordion-body">
+                                            Aplicaciones del aprendizaje profundo en registros médicos electrónicos y su
+                                            integración y aplicación en sistemas de apoyo para la toma de decisiones
+                                            clínicas.<br>
+                                            <strong>Cursos destacados:</strong>
+                                            <ul>
+                                                <li> <strong>Data Mining en bases de datos clínicas:</strong> Ética,
+                                                    base de datos MIMIC III, Sistema Internacional de Clasificación de
+                                                    Enfermedades y definición de resultados clínicos comunes.</li>
+                                                <li> <strong>Aprendizaje profundo (Deep Learning) en Historias Clínicas
+                                                        Electrónicas:</strong> de la analítica descriptiva a la
+                                                    analítica predictiva.</li>
+                                                <li> <strong>Modelos explicables de Deep Learning para aplicaciones
+                                                        sanitarias</strong>. </li>
+                                                <li> <strong>Inteligencia Artificial Aplicada a la Decisión
+                                                        Clínica:</strong> Principios de Apoyo a la Decisión Clínica:
+                                                    Generalización, sesgo, imparcialidad, utilidad clínica y privacidad
+                                                    de los algoritmos de inteligencia artificial</li>
+                                                <li> <strong>Proyecto de Aprendizaje Aplicado:</strong> <em>Permutation
+                                                        feature importance on the MIMIC critical care database</em>.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#educacion2">
+                                            Doctor en Estadística e Investigación Operativa - Universidad de Santiago de
+                                            Compostela-Galicia, España (2011)
+                                        </button>
+                                    </h2>
+                                    <div id="educacion2" class="accordion-collapse collapse">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li><strong>Tesis Doctoral</strong>: <em>“Test de bondad de ajuste para
+                                                        modelos de tipos de interés: Un enfoque basado en procesos
+                                                        empíricos”</em><br>
+                                                    Directores: Dr. Wenceslao González-Manteiga, Dr. Manuel Febrero
+                                                    Bande.<a
+                                                        href="https://investigacion.usc.gal/documentos/5d1df67129995204f766c2d1"
+                                                        target="tesis">(Repositorio USC)</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#educacion3">
+                                            Diploma de Estudios Avanzados</strong> - Universidad de Santiago de
+                                            Compostela-Galicia, España (2008)
+                                        </button>
+                                    </h2>
+                                    <div id="educacion3" class="accordion-collapse collapse">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li><strong>Trabajo Tutelado</strong>: <em>“Test de bondad de ajuste
+                                                        para modelos de tipos de interés”</em><br>
+                                                    Directores: Dr. Wenceslao González-Manteiga..
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#educacion4">
+                                            Magister Scientiarum en Modelos Aleatorios</strong> - Instituto Venezolano
+                                            de Investigaciones Científicas - Caracas - Venezuela (2002).
+                                        </button>
+                                    </h2>
+                                    <div id="educacion4" class="accordion-collapse collapse">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li><strong>Trabajo de Grado:</strong> <em>“Análisis Multifractal para
+                                                        el Análisis de Datos Geofísicos”</em> <br>
+                                                    Directores: Dr. Wilfredo Urbina, Dr. David Márquez, Dra. Stella
+                                                    Brassesco
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#educacion5">
+                                            Licenciado en Matemáticas. Universiddad de Los Andes - Mérida - Venezuela
+                                            (1998).
+                                        </button>
+                                    </h2>
+                                    <div id="educacion5" class="accordion-collapse collapse">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li><strong>Trabajo especial de Grado:</strong> <em>“Aproximación
+                                                        Poisson: Método de Chein-Stein”</em><br>
+                                                    Directora: MsC. María Victoria Sanchez.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Puedes seguir agregando más trabajos aquí -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Habilidades -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#habilidades">
+                            Habilidades
+                        </button>
+                    </h2>
+                    <div id="habilidades" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <div class="row align-items mb-3">
+                                <div class="col-10 text-align font-weight-bold">Programación en R:</div>
+                                <div class="col-9">
+                                    <div class="bar" style="width: 85%;">85%</div>
+                                </div>
+                                <div class="col-10 text-align font-weight-bold">Programación en Python:</div>
+                                <div class="col-9">
+                                    <div class="bar" style="width: 65%;">65%</div>
+                                </div>
+                                <div class="col-10 text-align font-weight-bold">HTML, CSS, Bootstrap, JAVA, Javascript:
+                                </div>
+                                <div class="col-9">
+                                    <div class="bar" style="width: 50%;">50%</div>
+                                </div>
+                                <div class="col-10 text-align font-weight-bold">Modelización Matemática y Estadística:
+                                </div>
+                                <div class="col-9">
+                                    <div class="bar" style="width: 90%;">90%</div>
+                                </div>
+                                <div class="col-10 text-align font-weight-bold">Desarrollo de Aplicaciones Web:</div>
+                                <div class="col-9">
+                                    <div class="bar" style="width: 65%;">65%</div>
+                                </div>
+                                <div class="col-10 text-align font-weight-bold">Manejo de Sistemas Operativos: Windows,
+                                    Linux, Mac-OS:</div>
+                                <div class="col-9">
+                                    <div class="bar" style="width: 90%;">90%</div>
+                                </div>
+                                <div class="col-10 text-align font-weight-bold">IA Generativa:</div>
+                                <div class="col-9">
+                                    <div class="bar" style="width: 75%;">75%</div>
+                                </div>
+                                <div class="col-10 text-align font-weight-bold">Machine Learning:</div>
+                                <div class="col-9">
+                                    <div class="bar" style="width: 75%;">75%</div>
+                                </div>
+                                <!-- <div class="col-3 text-align font-weight-bold">Aptitud 9:</div>
+                                <div class="col-9">
+                                    <div class="bar" style="width: 35%;">35%</div>
+                                </div>
+                                <div class="col-3 text-align font-weight-bold">Aptitud 10:</div>
+                                <div class="col-9">
+                                    <div class="bar" style="width: 35%;">35%</div>
+                                </div> -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Idiomas -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#idiomas">
+                            Idiomas
+                        </button>
+                    </h2>
+                    <div id="idiomas" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><strong>Español:</strong> Nativo.</li>
+                                <li><strong>Inglés:</strong> Intermedio</li>
+                                <li><strong>Euskera:</strong> Básico</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Cursos Disciplinarios -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#cursos">
+                            Cursos Disciplinarios
+                        </button>
+                    </h2>
+                    <div id="cursos" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <ul>
+                                <li>
+                                    <p><strong>Desarrollo de aplicaciones JAVA: Componentes Web y aplicaciones de
+                                            base
+                                            de datos (JSP y JPA)</strong> - IPARTEK Servicios Informáticos,
+                                        SOC.COOP-(Enero 2025) 190 Hrs</p>
+                                </li>
+                                <li>
+                                    <p><strong>Business Intelligence: modelización y visualización de datos con
+                                            excel y
+                                            power BI</strong> - IPARTEK Servicios Informáticos, SOC.COOP-(Noviembre
+                                        2024) 60 Hrs</p>
+                                </li>
+                                <li>
+                                    <p><strong>Desarrollo de aplicaciones Web con HTML5, CSS3, JavaScript y
+                                            JAVA</strong> - IPARTEK Servicios Informáticos, SOC.COOP-(Octubre 2024)
+                                        180
+                                        Hrs</p>
+                                </li>
+                                <li>
+                                    <p><strong>Ciberseguridad avanzada en entornos de las Tecnologías de la
+                                            Operación</strong> - Mainjobs Internacional Educativa y Tecnológica,
+                                        S.A.-(Diciembre 2024) 120 Hrs</p>
+                                </li>
+                                <li>
+                                    <p><strong>Tutorización del aprendizaje en la empresa</strong>. Fundación
+                                        Estatal
+                                        para la formación en el empleo,SEPE.2024.</p>
+                                </li>
+                                <li>
+                                    <p><strong>Switching CISCO CCNP</strong>, Eductrade Abril-Mayo 2024.</p>
+                                </li>
+                                <li>
+                                    <p><strong>Machine Learning APLICADO USANDO PYTHON</strong>, 150 horas, Plan
+                                        Formativo PLAN ESTATAL TRANSFORMACIÓN DIGITAL Julio 2022.</p>
+                                </li>
+                                <li>
+                                    <p><strong>Data Mining para Bases de Datos Clinicas</strong>, Universidad de
+                                        Glasgow, Nov. 2022 </p>
+                                </li>
+                                <li>
+                                    <p><strong>Inteligencia Artificial APLICADA A LA EMPRESA</strong>, G12 GRUPO
+                                        EMPRESARIAL DE SERVICIOS S.L. 2022.</p>
+                                </li>
+                                <li>
+                                    <p><strong>Arquitectura Big Data</strong>, con una duración de 165 horas,
+                                        Madrid,
+                                        Diciembre 2022. Hedima.</p>
+                                </li>
+                                <li>
+                                    <p><strong>Análista de Datos masivos y científico de datos</strong>, INDICE -
+                                        Consorci per la Formació Contínua de Catalunya, 310 horas. Agosto 2022.</p>
+                                </li>
+                                <li>
+                                    <p><strong>Desarrollo Web para comercio electrónica</strong>, Marzo 2024, 150
+                                        horas.
+                                        Business School 10e.</p>
+                                </li>
+                                <li>
+                                    <p><strong>Tecnologías habilitadoras digitales para la gestión de dispositivos,
+                                            contenidos y datos en el entorno profesional</strong>, Ministerio de
+                                        Educación y Formación profesional. Octubre 2023.</p>
+                                </li>
+                                <li>
+                                    <p><strong>Digitalización Aplicada al Sector Productivo</strong>, Confederación
+                                        Española de Organizaciones Empresariales (CEOE), Octubre 2022, 200 horas,
+                                        2024.
+                                    </p>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Participación en proyectos -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#proyectos">
+                            Participación en proyectos
+                        </button>
+                    </h2>
+                    <div id="proyectos" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+
+                            <div class="accordion" id="educacionItems">
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#proyecto1">
+                                            BASQUE MODELLING WORKING GROUP'S: "Mathematical Modeling Applied to
+                                            Health
+                                            Project (2020-2024)
+                                        </button>
+                                    </h2>
+                                    <div id="proyecto1" class="accordion-collapse collapse">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li> Análisis de datos y Desarrollo de modelos de predicción de la
+                                                    mortalidad en la Pandemia de COVID-19.
+                                                </li>
+                                                <li> Análisis y Desarrollo de modelos de predicción para el estudio
+                                                    de
+                                                    la Enfermedad Pulmonar Obstruciva Crónica (EPOC). </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#proyecto2">
+                                            <p>PREDICTIVE COGNITIVE MAINTENANCE DECISION SUPPORT SYSTEM (PreCoM)
+                                                (2019-2020) <a href="http://www.itmati.com/precom"
+                                                    target="_blank">http://www.itmati.com/precom</a></p>
+                                        </button>
+                                    </h2>
+                                    <div id="proyecto2" class="accordion-collapse collapse">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li><strong>PreCoM project:</strong>Factories of the Future.<br>
+                                                    <strong>Referencia:</strong> H2020-FOF-09-2017<br>
+                                                    <strong>Website:</strong> <a href="https://www.precom-project.eu/"
+                                                        target="_blank">precom-project.eu</a><br>
+                                                    <strong>Objetivo:</strong> Desarrollar y probar un sistema de
+                                                    toma
+                                                    de decisiones para
+                                                    mantenimiento predictivo que permitira identificar y localizar
+                                                    fallas, valorar su gravedad, predecir la evolución de las
+                                                    mismas,
+                                                    evaluar la vida útil y emitir avisos que permitan realizar
+                                                    acciones
+                                                    de mantenimiento preventivo.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#proyecto3">
+                                            <p> METODOLOGÍAS Y APLICACIONES EN ESTADÍSTICA SEMIPARAMÉTRICA,
+                                                FUNCIONAL Y
+                                                ESPACIO-TEMPORAL (2009-2013)
+                                                <a href="http://eio.usc.es/pub/MAESFE" target="_blank">MAESFE</a>
+                                            </p>
+                                        </button>
+                                    </h2>
+                                    <div id="proyecto3" class="accordion-collapse collapse">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li><strong>Referencia:</strong> MTM2008-03010. Ministerio de
+                                                    Ciencia e
+                                                    Innovación, España.
+                                                    Facultad de Matemáticas, Universidad de Santiago de Compostela
+                                                    2009-2013<br>
+                                                    <strong>IP-Principal:</strong> Wenceslao González Manteiga (IP)
+                                                    http://eio.usc.es/pub/MAESFE.
+                                                    <strong>Participación:</strong> Modelización financiera de las
+                                                    series de tipos de interés del sector interbancario de España y
+                                                    Europa (UE), en el período previo y durante el crack financiero
+                                                    de
+                                                    2008.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#proyecto4">
+                                            ANÁLISIS DEL RIESGO DE INCENDIOS FORESTALES: UN ENFOQUE BASADO EN
+                                            PROCESOS
+                                            PUNTUALES. (2013)
+                                        </button>
+                                    </h2>
+                                    <div id="proyecto4" class="accordion-collapse collapse">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li><strong>Referencia:</strong> 007-RCT-2013. CDCHT - Universidad
+                                                    Centroccidental Lisandro Alvarado <br>
+                                                    <strong>Responsable:</strong> Dr. Abelardo Monsalve Cobis
+                                                    <strong>Colaborador:</strong> Lic. Rafael González
+                                                    Análisis del Riesgo de Incendios Forestales: Un enfoque basado
+                                                    en
+                                                    Procesos Puntuales.<br>
+                                                    <strong>Objetivo General:</strong> Proponer un modelo
+                                                    estadístico
+                                                    basado en procesos puntuales y técnicas no paramétricas para la
+                                                    medición del riesgo de fuegos esporádicos, y su pronóstico de
+                                                    ocurrencia a corto plazo, en Venezuela.
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="accordion-item">
+                                    <h2 class="accordion-header">
+                                        <button class="accordion-button collapsed" type="button"
+                                            data-bs-toggle="collapse" data-bs-target="#proyecto5">
+
+                                        </button>
+                                    </h2>
+                                    <div id="proyecto5" class="accordion-collapse collapse">
+                                        <div class="accordion-body">
+                                            <ul>
+                                                <li>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- Puedes seguir agregando más trabajos aquí -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <!-- Trabajos académicos dirigidos -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#trabajosdirigidos">
+                            Trabajos académicos dirigidos
+                        </button>
+                    </h2>
+                    <div id="trabajosdirigidos" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><strong>Codirector de Tesis Doctoral</strong> del Dr. Pedro Harmath,
+                                    <i>“Análisis y
+                                        Estimación de Medidas de Pobreza Unidimensionales bajo la Teoría de Procesos
+                                        Empíricos Bootstrap”</i>, Universidad Centroccidental “Lisandro Alvarado”,
+                                    Barquisimeto 2018
+                                </li>
+                                <li><strong>Director de Trabajo Final de Grado</strong> de la Lic. Dellys
+                                    Matos.<i>“Metodología ROC en la Evaluación de Factores de Riesgo Cardiovascular
+                                        como
+                                        Marcadores del Tejido Adiposo Epicárdico</i>. “Universidad Centroccidental
+                                    “Lisandro Alvarado” Barquisimeto 2015.
+                                </li>
+                                <li><strong>Director de Trabajo Final de Grado</strong> del Lic. Rafael
+                                    González,<i>Procesos Puntuales, Teoría y Aplicaciones Prácticas.</i> Universidad
+                                    Centroccidental “Lisandro Alvarado” Barquisimeto 2014.
+                                </li>
+                                <li><strong>Director de Trabajo Final de Grado</strong> de la Lic. Karla Carrero,
+                                    <i>Un
+                                        Modelo Vectorial Autorregresivo para la Modelización de la Inflación en
+                                        Venezuela</i>,Universidad Centroccidental “Lisandro Alvarado” Barquisimeto
+                                    2013.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Publicaciones -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#publicaciones">
+                            Publicaciones
+                        </button>
+                    </h2>
+                    <div id="publicaciones" class="accordion-collapse collapse">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><strong>Vaamonde-Rivas, Manuel, Monsalve-Cobis, Abelardo , Pardo-Fernández, Juan
+                                        Carlos, & de Uña-Álvarez, Jacobo. (2021)</strong>. <i>Software module based
+                                        on
+                                        lifetime analysis for a predictive maintenance decision-support system</i>.
+                                    <a href="https://doi.org/10.5281/zenodo.4557168"
+                                        target="_blank">http://doi.org/10.5281/zenodo.4557168</a>
+                                </li>
+                                <li><strong>Harmath, P., Ramoni, J., Monsalve, A. and Fajardo, J. (2021).</strong>
+                                    <i>About the Bootstrap Weak Convergence for the Foster-Greer-Thorbecke Poverty
+                                        Index. </i> Investigación Operacional. 42(2),174-194 42(2),174-194.
+                                    <a href="https://rev-inv-ope.pantheonsorbonne.fr/sites/default/files/inline-files/42221-04.pdf"
+                                        target="_blank">link</a>
+                                </li>
+                                <li><strong>Harmath, P., Ramoni, J. and Monsalve, A. (2020).</strong>.
+                                    <i> A Glivenko-Cantelli Bootstrap Theorem for the Foster-Greer-Thorbecke Poverty
+                                        Index</i>Revista Colombiana de Matemáticas. 54(2), 159-177
+                                    <a href="https://revistas.unal.edu.co/index.php/recolma/article/view/93845"
+                                        target="_blank">link </a>
+                                </li>
+                                <li><strong>Harmath, P., Ramoni, J. y Monsalve, A. (2019).</strong>. <i> Un
+                                        Resultado
+                                        Glivenko-Cantelli Bootstrap para la Medida de Pobreza de
+                                        Foster-Greer-Thorbecke.</i>.Artículo in extenso publicado en el Congreso de
+                                    Matemática Aplicada, Computacional e Industrial - MACI 2019 - S12-Métodos
+                                    Probabilísticos y Estadísticos. VII(2019), 245-248
+                                    <a href="https://amcaonline.org.ar/maci/index.php/maci2019/maci/paper/viewFile/5127/366"
+                                        target="_blank">link </a>
+                                </li>
+                                <li><strong>A.E. Monsalve-Cobis, W. González-Manteiga, W. Stute (2017),</strong>.
+                                    <i>“The Statistical Impact of Inflation On Interest Rates”</i>. Communications
+                                    in
+                                    Statistics-Theory and Methods. Volume 46, Issue 14, ISSN: 0361-0926
+                                    <a href="http://dx.doi.org/10.1080/03610926.2015.1130842"
+                                        target="_blank">http://dx.doi.org/10.1080/03610926.2015.1130842 </a>
+                                </li>
+                                <li><strong>González-Manteiga, W., Zubelli, J.,Monsalve-Cobis, Abelardo E.,
+                                        Febrero-Bande, M. (2017)</strong>. <i> “Goodness of Fit Test for Stochastic
+                                        Volatility Models",</i>.From Statistics to Mathematical Finance. Festschrift
+                                    in
+                                    Honour of Winfried Stute. Springer International Publishing ISBN
+                                    978-3-319-50986-0.
+                                    pp. 89-104.
+                                    <a href="https://www.springerprofessional.de/en/goodness-of-fit-test-for-stochastic-volatility-models/15173834 "
+                                        target="_blank"> link</a>
+                                </li>
+                                <li><strong>Harmath, P., Monsalve, A. y Ramoni, J. (2017). </strong>. <i>Medición,
+                                        Método Axiomático y Medidas de Pobreza: Una Revisión. </i>. Revista de
+                                    Matemática de la Universidad del Atlántico. IV(1), 1-15.
+                                    <a href="http://investigaciones.uniatlantico.edu.co/revistas/index.php/MATUA/article/view/1756"
+                                        target="_blank">http://investigaciones.uniatlantico.edu.co/revistas/index.php/MATUA/article/view/1756
+                                    </a>
+                                </li>
+                                <li><strong>González De Gouveia R, Monsalve-Cobis A, (2017), </strong>. <i>
+                                        “Análisis
+                                        del Riesgo de Incendios Forestales: Un enfoque basado en Procesos
+                                        Puntuales”,</i>.Publicaciones en Ciencias y Tecnología. Vol. 11 Nro 1. pp.
+                                    7-16
+                                    ISSN: 1856-8890
+                                    <a href=" " target="_blank"> </a>
+                                </li>
+                                <li><strong>González De Gouveia R, Monsalve-Cobis A, Vieira Villareal
+                                        K,(2015)</strong>.
+                                    <i>“Funciones de Luminosidad de Cuasares, Un enfoque Basado en Procesos
+                                        Puntuales”,</i>.Publicaciones en Ciencias y Tecnología, Vol 9, Nro 2.
+                                    pp.105–122. ISSN:1856-8890
+                                    <a href=" " target="_blank"> </a>
+                                </li>
+                                <li><strong>Monsalve y Harmath, (2015)</strong>. <i>“Introducción al Análisis de
+                                        Series
+                                        de Tiempo con Aplicaciones a la Econometría y Finanzas”.</i>.Ediciones IVIC,
+                                    Instituto Venezolano de Investigaciones Científicas (IVIC). ISBN
+                                    978-980-261-163-8,
+                                    Caracas, Venezuela
+                                    <a href=" https://www.researchgate.net/publication/295106544_Introduccion_al_Analisis_de_Series_de_Tiempo_con_Aplicaciones_a_la_Econometria_y_Finanzas "
+                                        target="_blank"> link </a>
+                                </li>
+                                <li><strong>Monsalve-Cobis, A., González-Manteiga, W., and Febrero-Bande, M.
+                                        (2011)</strong>. <i>“Goodness of Fit Test for Interest Rates Models: An
+                                        Approach
+                                        based on Empirical Processes”,</i>. Computational Statistics & Data
+                                    Analysis,
+                                    55. Pags 3073–3092. Elsevier Science Bv ISSN: 0167-9473
+                                    <a href="https://doi.org/10.1016/j.csda.2011.06.004" target="_blank">
+                                        https://doi.org/10.1016/j.csda.2011.06.004</a>
+                                </li>
+                                <li><strong>David Márquez, Juan R. Jiménez and Abelardo Monsalve (2001)</strong>.
+                                    <i>
+                                        Facies Recognition Using Multifractal Analysis,</i>.Paper presented at the
+                                    2001
+                                    SEG Annual Meeting, San Antonio, Texas, Paper Number: SEG-2001-0580.
+                                    <a href="https://doi.org/10.1190/1.1816684" target="_blank">
+                                        https://doi.org/10.1190/1.1816684</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
-    </div>
-
-
-
+    </main>
     <!-- ---------------------------------------------------------------------------- -->
     <script src="js/componentes.js">
         const lang = navigator.language || navigator.userLanguage;
