@@ -50,10 +50,10 @@ footer {
 
 body {
     /* background-image: url(../images/Designer4.jpeg); */
-    background-image: url(../img/Designer3marcadeagua.jpg);
+    background-image: url(../img/Fondo_2_marca_agua.png.jpg);
     background-attachment: fixed;
     background-size: cover;
-    background-position: center;
+    /* background-position: center; */
     /* background-repeat: no-repeat; */
     /* background: linear-gradient(135deg, #8e909b, #004e92); */
     color: rgb(116, 146, 67);
