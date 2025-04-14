@@ -12,14 +12,16 @@
 
 <body>
     <div id="cabecera"></div>
-    <main class="container mt-5">
+    <main class="container mt-4 mb-5 pb-5">
         <div class="cv-box p-4 shadow">
             <h1 class="text-center">Curriculum Vitae</h1>
             <p class="text-center job-title">Data Scientst & Investigador Académico</p>
-             <!-- Publicaciones -->
+            <!-- Opciones -->
+            <div class="accordion" id="cvAccordion">
                 <div class="accordion-item">
                     <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#pdfscv">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#pdfscv">
                             Descargas:
                         </button>
                         <div></div>
@@ -28,12 +30,15 @@
                         <div class="accordion-body">
                             <ul>
                                 <li><a href="pdfs/CV_Resum_AbelardoMonsalve.pdf" download>Resumen CV</a></li>
-                                <li><a href="pdfs/CV_Detallado_AbelardoMonsalve.pdf" download>Curriculum Detallado</a></li>
-                                <li><a href="pdfs/CV_Academico_AbelardoMonsalve.pdf" download>Curriculum Académico</a></li>
+                                <li><a href="pdfs/CV_Detallado_AbelardoMonsalve.pdf" download>Curriculum Detallado</a>
+                                </li>
+                                <li><a href="pdfs/CV_Academico_AbelardoMonsalve.pdf" download>Curriculum Académico</a>
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
+            </div>
         </div>
     </main>
     <script src="js/componentes.js"></script>

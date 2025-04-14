@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+</head>
+
+<body>
+    <div id="cabecera"></div>
+    <main class="container mt-4 mb-5 pb-5">
+        <div class="cv-box p-4 shadow">
+            <h1 class="text-center">Curriculum Vitae</h1>
+            <p class="text-center job-title">Data Scientst & Academic Researcher</p>
+            <!-- Opciones -->
+            <div class="accordion" id="cvAccordion">
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#pdfscv">
+                            Download:
+                        </button>
+                        <div></div>
+                    </h2>
+                    <div id="pdfscv" class="accordion-collapse collapse show">
+                        <div class="accordion-body">
+                            <ul>
+                                <li><a href="pdfs/CV_Resum_AbelardoMonsalve.pdf" download>Short CV</a></li>
+                                <li><a href="pdfs/CV_Detallado_AbelardoMonsalve.pdf" download>Detailed CV</a>
+                                </li>
+                                <li><a href="pdfs/CV_Academico_AbelardoMonsalve.pdf" download>Academic CV</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="js/componentes.js"></script>
+</body>
+<div id="pie"></div>
+
+</html>
