@@ -50,7 +50,7 @@ footer {
 
 body {
     /* background-image: url(../images/Designer4.jpeg); */
-    background-image: url(../img/Fondo_2.png);
+    background-image: url(../img/Designer3marcadeagua.jpeg.jpg);
     background-attachment: fixed;
     background-size: cover;
     background-position: center;
@@ -65,7 +65,6 @@ body {
     justify-content: space-around;
     align-items: center;
     min-height: 100vh;
-   
 }
 
 body>.container{ padding-left: 80px; 
@@ -76,8 +75,8 @@ body>.container{ padding-left: 80px;
 }
 
 .cv-box {
-   background: rgba(255, 255, 255, 0.1); /*rgba(1, 19, 26, 0.1); */
-   backdrop-filter: blur(80px); /*blur(5px);*/
+   background: rgba(39, 34, 34, 0.1); /*rgba(1, 19, 26, 0.1); */
+   backdrop-filter: blur(120px); /*blur(5px);*/
    border-radius: 10px;
    padding: 50px;
    width: 100%;
@@ -103,7 +102,7 @@ h1 {
     font-weight: bold;
     font-size: 1.3em;
     color: rgb(240, 131, 28);
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 4);
 }
 
 
