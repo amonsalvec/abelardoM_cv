@@ -101,8 +101,8 @@ h1 {
     font-family: 'Open Sans', sans-serif;
     font-weight: bold;
     font-size: 1.3em;
-    color: rgb(209, 103, 4);
-     text-shadow: 2px 2px 5px rgba(0.6, 0.6, 0.6, 0.2); 
+    color: rgb(96, 67, 8);
+     /* text-shadow: 2px 2px 5px rgba(0.6, 0.6, 0.6, 0.2);  */
 }
 
 
@@ -168,7 +168,7 @@ h1 {
   }
 
 .resumen {
-    --bg-image: url('../img/resumen.jpeg');
+    --bg-image: url('../img/resumido_new.png');
     --bg-color:#396404;
     --bg-color-light: #dce3df;
     --text-color-hover: white;
@@ -176,7 +176,7 @@ h1 {
   }
 
   .detallado {
-    --bg-image: url('../img/detallado.jpeg');
+    --bg-image: url('../img/detallado_new.png');
     --bg-color:#396404;
     --bg-color-light: #dce3df;
     --text-color-hover: white;
