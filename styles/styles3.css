@@ -1,91 +1,42 @@
 .lang-content { display: none; }
 .lang-content.active { display: block; }
 
-body {
-  /* background: linear-gradient(in hsl longer hue, rgb(134, 74, 74), #faf8f9); */
-  /* background: linear-gradient(#98a7ec, #5656e3); */
-  background-image: url(../img/Fondo_2_marca_agua.png.jpg);
-  background-attachment: fixed;
-  background-size: cover;
-  /* font-size: large; */
-  font-family: 'Open Sans', 'Helvetica Neue', sans-serif 'Segoe UI', 'Garamond', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS';
-  /* 'Poppins', 'Segoe UI', 'Garamond', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS'; */
-  font-size:large;
-  /* display: flex; */
-  /* justify-content: center; */
-  justify-content: space-around;
-  align-items: center;
-  min-height: 100vh;
+.bar {
+    height: 20px;
+    background-color: #189821;
+    color: black;
+    font-weight: bold;
+    text-align:center;
+    font-size:small;
+    padding: -0.1px;
+    border-radius: -0.5px;
+}
+.bar-container {
+    margin-bottom: 10px;
+    font-size:x-small;
+}
 
+.label-container {
+    display:flex;
+    align-items:flex-start;
+    font-size:x-small;
+    font-weight: bold;
 }
 
 
-.navbar{
-    /* background-color: #200101; */
-    background: linear-gradient(to bottom right,  #000f01, #054d13); 
+
+
+:root {
+    --bs-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.5);
 }
 
-.navbar a:hover {
-    color: rgb(252, 248, 14);
-    text-decoration: none;
-    display: block;
-    
+.text-justify {
+    text-align: justify !important;
 }
 
-  .left-column {
-      background-color: #e7ede7;
-  }
 
-  .profile-section,
-  .contact-section {
-      padding: 1.5rem;
-  }
-
-  
-  .aptitudes-fill {
-      height: 14px;
-      background-color: #3f3c34bf;
-      color: rgb(255, 255, 255);
-      text-align:end;
-      padding-right: 5px;
-      font-size: 0.7rem;
-      border-radius: 15px;
-  }
-
-  .aptitudes-bar {
-      background-color: #e5dfce;
-      border-radius: 5px;
-      overflow: hidden;
-
-      font-weight: bolder;
-  }
-
-  h1,
-  h2 {
-      font-weight: bold;
-  }
-
-  .section-title {
-      /* background-color: #2e5e20; */
-      /* background: linear-gradient(to bottom right, #2e5e20, #6d9459); */
-      background: linear-gradient(70deg, #0c2c03, #1b702c);
-      font-weight: bolder;
-      color: white;
-      padding: 0.5rem 1rem;
-      border-radius: 0.25rem;
-      margin-bottom: 1rem;
-  }
-
-  .accordion-button:not(.collapsed) {
-      background-color: #e7ede8;
-  }   
-  .badge {
-      font-size: 1.2rem;
-      margin: 0.2rem;
-  }
-
-  footer {
-    background: linear-gradient(to bottom right, #000f01, #054d13); 
+footer {
+    background: black;
     padding: 10px;
     width: 100%;
     /* margin-top: 10px;
@@ -96,6 +47,116 @@ body {
     text-align:justify;
     /* font-weight: bold; */
 }
+
+body {
+    /* background-image: url(../images/Designer4.jpeg); */
+    background-image: url(../img/Fondo_2_marca_agua.png.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-position: center; */
+    /* background-repeat: no-repeat; */
+    /* background: linear-gradient(135deg, #8e909b, #004e92); */
+    /* color: rgb(116, 146, 67); */
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif 'Segoe UI', 'Garamond', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS';
+    /* 'Poppins', 'Segoe UI', 'Garamond', 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS'; */
+    font-size:large;
+    /* display: flex; */
+    /* justify-content: center; */
+    justify-content: space-around;
+    align-items: center;
+    min-height: 100vh;
+}
+
+body>.container{ padding-left: 80px; 
+    padding-bottom: 0px;
+    padding-right: 30px;
+    padding-left: 20px;   
+    
+}
+
+.cv-box {
+   background: rgba(216, 150, 150, 0.1); /*rgba(1, 19, 26, 0.1); */
+   backdrop-filter: blur(140px); /*blur(5px);*/
+   border-radius: 10px;
+   padding: 50px;
+   width: 100%;
+   color: #112e8e;
+   max-width: 1000px;
+   box-shadow: 0px 0px 15px rgba(0, 238, 255, 0.5);
+   margin:auto;
+}
+
+/* Título del CV */
+h1 {
+    font-size: 2.1em;
+    font-weight: bold;
+    font-variant-caps: all-petite-caps;
+    color: white;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 20px;
+}
+
+/* Subtítulo */
+.job-title {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    font-size: 1.3em;
+    color: rgb(96, 67, 8);
+     /* text-shadow: 2px 2px 5px rgba(0.6, 0.6, 0.6, 0.2);  */
+}
+
+
+/* Acordeón personalizado */
+.accordion-button {
+    background-color: #95def3;
+    color: #010425;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+.accordion-button:hover {
+    background-color: #cfe4f3;
+}
+
+/* Efecto de neón en botones */
+.accordion-button:hover {
+    background-color: #a2cef8;
+    box-shadow: 0px 0px 10px rgba(28, 28, 29, 0.8);
+}
+
+
+.accordion-button:not(.collapsed) {
+    background-color: #f1f3e1f8;
+    color: white;
+}
+
+.accordion-body {
+    background: #ecf0f1;
+    border-radius: 5px;
+    padding: 15px;
+}
+
+
+/* Lista estilizada */
+.accordion-body ul {
+    list-style-type:symbols();
+    padding-left: 0;
+}
+
+.accordion-body ul li {
+    padding: 3px 0;
+    font-size: 1.1em;
+}
+
+
+.navbar a:hover {
+    color: white;
+    text-decoration: none;
+    display: block;
+    
+}
+
 
 /* Estilos para la sección de habilidades */
 .skills {

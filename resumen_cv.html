@@ -5,381 +5,389 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Curriculum Vitae</title>
+    <!-- Bootstrap 5 CDN -->
     <link rel="stylesheet" href="./styles/styles.css">
     <link href="styles/bootstrap-icons.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" defer></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
 </head>
 
 <body>
-    <div id="cabecera"></div>
+    <!-- CABECERA -->
+    <div>
+        <div id="cabecera"></div>
+    </div>
+    <div class="text-end p-3">
+        <a href="resumen_cv.html" title="Español">
+            <img src="https://flagcdn.com/24x18/es.png" alt="Español"
+                style="width: 30px; height: 24px; margin-right: 6px;">
+        </a>
+        <a href="resumen_cv_en.html" title="English">
+            <img src="https://flagcdn.com/24x18/gb.png" alt="English" style="width: 30px; height: 24px;">
+        </a>
+    </div>
+    <!-- ------------------------------------------------------------------------ -->
     <main class="container mt-4 mb-5 pb-5">
-        <div class="cv-box p-4 shadow">
-            <h1 class="text-center">Resumen Curricular</h1>
-            <p class="text-center job-title">Data Scientist & Academic Researcher</p>
+        <div class="container my-5 shadow-lg bg-white rounded">
+            <div class="row">
+                <!-- Columna izquierda -->
+                <div class="col-md-4 left-column">
+                    <div class="text-center mt-4">
+                        <h1>Abelardo E.<br>Monsalve Cobis</h1>
+                        <h5 class="text-muted">Data Scientist/ Matemático-Estadístico</h5>
+                    </div>
 
-            <!-- Información Personal -->
-            <div class="accordion" id="cvAccordion">
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#perfil">
-                            Perfil
-                        </button>
-                    </h2>
-                    <div id="perfil" class="accordion-collapse collapse show">
-                        <div class="accordion-body">
-                            <p> Estadístico-Matemático con más de 10 años de experiencia en desarrollo de modelos matemáticos, ténicas estadísticas e investigación aplicada. He trabajado en centros como BCAM e ITMATI desarrollando modelos predictivos, análisis de datos longitudinales y técnicas de inteligencia artificial explicable. Especialista en R, Python y MATLAB, con dominio de desarrollo web. Mi labor combina el rigor académico con la aplicación práctica en salud, industria y tecnología.
-                            </p>
-                        </div>
+                    <div class="profile-section">
+                        <div class="section-title">PERFIL</div>
+                        <p>Estadístico-Matemático con más de 10 años de experiencia en desarrollo de modelos
+                            matemáticos,
+                            ténicas estadísticas e investigación aplicada. He trabajado en centros como BCAM e ITMATI
+                            desarrollando modelos predictivos, análisis de datos longitudinales y técnicas de
+                            inteligencia
+                            artificial explicable. Especialista en R, Python y MATLAB, con dominio de desarrollo web. Mi
+                            labor
+                            combina el rigor académico con la aplicación práctica en salud, industria y tecnología..
+                        </p>
+                    </div>
+
+                    <div class="contact-section">
+                        <div class="section-title">CONTACTO</div>
+                        <!-- <p><strong>DNI:</strong> 60345315P</p> -->
+                        <p><strong>Teléfono:</strong><br>+34 663 492763</p>
+                        <p><strong>Email:</strong><a class="text-dark px-1" href="mailto:abelardoemc@gmail.com"
+                                target="_blank">abelardoemc@gmail.com</a></p>
+                        <p><strong></strong><a class="text-dark px-1" href="https://github.com/amonsalvec"
+                                target="_blank"><i class="bi bi-github"></i></a>
+                            <a class="text-dark px-1"
+                                href="https://www.linkedin.com/in/abelardo-enrique-monsalve-cobis-239594140/"
+                                target="_blank"><i class="bi bi-linkedin"></i></a>
+                            <a class="text-dark px-1" href="https://x.com/abelardo_mc" target="_blank"><i
+                                    class="bi bi-twitter-x"></i></a>
+                            <a class="text-dark px-1"
+                                href="https://www.researchgate.net/profile/Abelardo-Monsalve-Cobis"
+                                target="_blank">ResearchGate<i class="bi bi-researchgate"></i></a>
+                        </p>
                     </div>
                 </div>
 
-                 <!-- Información personal -->
-                 <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#infoPersonal">
-                            Información Personal
-                        </button>
-                    </h2>
-                    <div id="infoPersonal" class="accordion-collapse collapse">
-                        <div class="accordion-body">
-                            <ul>
-                                <li><strong>Documento de Identidad:</strong> 60345315P</li>
-                                <li><strong>Email:</strong> abelardoemc@gmail.com</li>
-                                <li><strong>Teléfono:</strong> +34 663492763</li>
-                                <li><strong>Ubicación:</strong> Bilbao, Bizkaia-País Vasco, España</li>
-                                <li>linked<a class="text-dark px-1" href="https://www.linkedin.com/in/abelardo-enrique-monsalve-cobis-239594140/overlay/contact-info/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base%3BuXoFlM5OQUSR%2FAR%2BkasqfQ%3D%3D" target="_blank"><i class="bi bi-linkedin"></i></a></li>
-                                <li>Github<a class="text-dark px-1" href="https://github.com/amonsalvec" target="_blank"><i class="bi bi-github"></i></a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Experiencia Profesional -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header"> 
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#experiencia">
-                            Experiencia Profesional
-                        </button>
-                    </h2>
-                    <div id="experiencia" class="accordion-collapse collapse">
-                        <div class="accordion-body">
-                            <div class="accordion" id="experienciaItems">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#trabajo1">
-                                            Técnico de Investigación - BCAM (2020 - 2024)
-                                        </button>
-                                    </h2>
-                                    <div id="trabajo1" class="accordion-collapse collapse">
-                                        <div class="accordion-body">
-                                            <p><strong>Responsabilidades</strong></p>
-                                            <ul>
-                                                <li>Depuración y Análisis de Datos. Desarrollo de Modelos de Regresión
-                                                    Logística, Beta-Binomiales, Supervivencia, Riesgos competitivos y
-                                                    Cura</li>
-                                                <li>Análisis de Datos Longitudinales. Desarrollo de Modelos de regresión
-                                                    con efectos mixtos análisis de datos de pacientes con enfermedades
-                                                    respiratorias.</li>
-                                            </ul>
-                                        </div>
+                <!-- Columna derecha -->
+                <div class="col-md-8 p-4">
+                    <div class="mt-4">
+                        <!-- Experiencia Profesional -->
+                        <div class="section-title">EXPERIENCIA PROFESIONAL</div>
+                        <div class="accordion" id="accordionExperiencia">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#trabajo1">
+                                        <strong>Técnico de Investigación - BCAM-Basque Center for Applied Mathematics
+                                            (2020 - 2024)</strong>
+                                    </button>
+                                </h2>
+                                <div id="trabajo1" class="accordion-collapse collapse">
+                                    <div class="accordion-body">
+                                        <p><strong>Responsabilidades</strong></p>
+                                        <ul>
+                                            <li>Depuración y Análisis de Datos. Desarrollo de Modelos de
+                                                Regresión
+                                                Logística, Beta-Binomiales, Supervivencia, Riesgos competitivos
+                                                y
+                                                Cura</li>
+                                            <li>Análisis de Datos Longitudinales. Desarrollo de Modelos de
+                                                regresión
+                                                con efectos mixtos análisis de datos de pacientes con
+                                                enfermedades
+                                                respiratorias.</li>
+                                        </ul>
                                     </div>
                                 </div>
-
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#trabajo2">
-                                            Técnico de Investigación - ITMATI (2019 - 2020)
-                                        </button>
-                                    </h2>
-                                    <div id="trabajo2" class="accordion-collapse collapse">
-                                        <div class="accordion-body">
-                                            <p><strong>Responsabilidades</strong></p>
-                                            <ul>
-                                                <li>Depuración y Análisis de Datos.
-                                                <li>Desarrollo de un <a href="https://zenodo.org/records/4557168"
-                                                        target="_blank">modulo de software</a> basado en modelos de
-                                                    supervivencia y su integración en un sistema de mantenimiento
-                                                    predictivo y toma de decisiones.</li>
-                                            </ul>
-                                        </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#trabajo2">
+                                        <strong>Técnico de Investigación - ITMATI-Instituto Tecnológico de Matemática
+                                            Industrial (2019 - 2020)</strong>
+                                    </button>
+                                </h2>
+                                <div id="trabajo2" class="accordion-collapse collapse">
+                                    <div class="accordion-body">
+                                        <p><strong>Responsabilidades</strong></p>
+                                        <ul>
+                                            <li>Depuración y Análisis de Datos.
+                                            <li>Desarrollo de un <a href="https://zenodo.org/records/4557168"
+                                                    target="_blank">modulo de software</a> basado en modelos de
+                                                supervivencia y su integración en un sistema de mantenimiento
+                                                predictivo y toma de decisiones.</li>
+                                        </ul>
                                     </div>
                                 </div>
-
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#trabajo3">
-                                            Profesor Titular - Universidad Centroccidental Lisandro Alvarado. (Abril
-                                            2001-Enero-2019). Barquisimeto, Venezuela
-                                        </button>
-                                    </h2>
-                                    <div id="trabajo3" class="accordion-collapse collapse">
-                                        <div class="accordion-body">
-                                            <p><strong>Responsabilidades</strong></p>
-                                            <ul>
-                                                <li>Docencia, Investigación y Extensión Universitaria en la Decanato de
-                                                    Ciencias y Tecnología. </li>
-                                                <li> Jefe de Deapartamento de Investigación de Operaciones y Estadística
-                                                </li>
-                                                <li> Miembro del Comité de Doctorado en Matemáticas</li>
-                                            </ul>
-                                        </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#trabajo3">
+                                        <strong>Profesor Titular - Universidad Centroccidental Lisandro Alvarado. (Abril
+                                            2001-Enero-2019). Barquisimeto, Venezuela</strong>
+                                    </button>
+                                </h2>
+                                <div id="trabajo3" class="accordion-collapse collapse">
+                                    <div class="accordion-body">
+                                        <p><strong>Responsabilidades</strong></p>
+                                        <ul>
+                                            <li>Docencia, Investigación y Extensión Universitaria en la Decanato
+                                                de
+                                                Ciencias y Tecnología. </li>
+                                            <li> Jefe de Deapartamento de Investigación de Operaciones y
+                                                Estadística
+                                            </li>
+                                            <li> Miembro del Comité de Doctorado en Matemáticas</li>
+                                        </ul>
                                     </div>
                                 </div>
-
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#trabajo4">
-                                            Tesista Contratado - Instituto de Tecnología Venezolana para el Petróleo,
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#trabajo4">
+                                        <strong>Tesista Contratado - Instituto de Tecnología Venezolana para el
+                                            Petróleo,
                                             PDVSA-INTEVEP . (1999-2001). Los Teques, Venezuela. Programa Nacional de
-                                            Tesis en la industria.
-                                        </button>
-                                    </h2>
-                                    <div id="trabajo4" class="accordion-collapse collapse">
-                                        <div class="accordion-body">
-                                            <p><strong>Responsabilidades</strong></p>
-                                            <ul>
-                                                <li> Desarrollo de un modelo de clasificación de registros de pozos
-                                                    petrolífero basado en litologías y análisis multifractal</li>
-                                            </ul>
-                                        </div>
+                                            Tesis en la industria.</strong>
+                                    </button>
+                                </h2>
+                                <div id="trabajo4" class="accordion-collapse collapse">
+                                    <div class="accordion-body">
+                                        <p><strong>Responsabilidades</strong></p>
+                                        <ul>
+                                            <li> Desarrollo de un modelo de clasificación de registros de pozos
+                                                petrolífero basado en litologías y análisis multifractal</li>
+                                        </ul>
                                     </div>
                                 </div>
-
-
-                                <!-- Puedes seguir agregando más trabajos aquí -->
                             </div>
                         </div>
                     </div>
-                </div>
-
-                <!-- Educación -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#educacion">
-                            Educación
-                        </button>
-                    </h2>
-                    <div id="educacion" class="accordion-collapse collapse">
-                        <div class="accordion-body">
-                            <div class="accordion" id="educacionItems">
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#educacion1">
-                                            Especialización en Deep Learning: INFORMED CLINICAL DECISION MAKING</strong>
-                                            - Coursera-University of Glasgow-(2023)
-                                        </button>
-                                    </h2>
-                                    <div id="educacion1" class="accordion-collapse collapse">
-                                        <div class="accordion-body">
-                                            Aplicaciones del aprendizaje profundo en registros médicos electrónicos y su
-                                            integración y aplicación en sistemas de apoyo para la toma de decisiones
-                                            clínicas.<br>
-                                            <strong>Cursos destacados:</strong>
-                                            <ul>
-                                                <li> <strong>Data Mining en bases de datos clínicas:</strong> Ética,
-                                                    base de datos MIMIC III, Sistema Internacional de Clasificación de
-                                                    Enfermedades y definición de resultados clínicos comunes.</li>
-                                                <li> <strong>Aprendizaje profundo (Deep Learning) en Historias Clínicas
-                                                        Electrónicas:</strong> de la analítica descriptiva a la
-                                                    analítica predictiva.</li>
-                                                <li> <strong>Modelos explicables de Deep Learning para aplicaciones
-                                                        sanitarias</strong>. </li>
-                                                <li> <strong>Inteligencia Artificial Aplicada a la Decisión
-                                                        Clínica:</strong> Principios de Apoyo a la Decisión Clínica:
-                                                    Generalización, sesgo, imparcialidad, utilidad clínica y privacidad
-                                                    de los algoritmos de inteligencia artificial</li>
-                                                <li> <strong>Proyecto de Aprendizaje Aplicado:</strong> <em>Permutation
-                                                        feature importance on the MIMIC critical care database</em>.
-                                                </li>
-                                            </ul>
-                                        </div>
+                    <!-- Educación -->
+                    <div class="mt-4">
+                        <div class="section-title">EDUCACION</div>
+                        <div class="accordion" id="accordionEducacion">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#educacion1">
+                                        <strong>Especialización en Deep Learning: INFORMED CLINICAL DECISION MAKING
+                                            - Coursera-University of Glasgow-(2023)</strong>
+                                    </button>
+                                </h2>
+                                <div id="educacion1" class="accordion-collapse collapse">
+                                    <div class="accordion-body">
+                                        Aplicaciones del aprendizaje profundo en registros médicos electrónicos y su
+                                        integración y aplicación en sistemas de apoyo para la toma de decisiones
+                                        clínicas.<br>
+                                        <strong>Cursos destacados:</strong>
+                                        <ul>
+                                            <li> <strong>Data Mining en bases de datos clínicas:</strong> Ética,
+                                                base de datos MIMIC III, Sistema Internacional de Clasificación de
+                                                Enfermedades y definición de resultados clínicos comunes.</li>
+                                            <li> <strong>Aprendizaje profundo (Deep Learning) en Historias Clínicas
+                                                    Electrónicas:</strong> de la analítica descriptiva a la
+                                                analítica predictiva.</li>
+                                            <li> <strong>Modelos explicables de Deep Learning para aplicaciones
+                                                    sanitarias</strong>. </li>
+                                            <li> <strong>Inteligencia Artificial Aplicada a la Decisión
+                                                    Clínica:</strong> Principios de Apoyo a la Decisión Clínica:
+                                                Generalización, sesgo, imparcialidad, utilidad clínica y privacidad
+                                                de los algoritmos de inteligencia artificial</li>
+                                            <li> <strong>Proyecto de Aprendizaje Aplicado:</strong> <em>Permutation
+                                                    feature importance on the MIMIC critical care database</em>.
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
+                            </div>
 
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#educacion2">
-                                            Doctor en Estadística e Investigación Operativa - Universidad de Santiago de
-                                            Compostela-Galicia, España (2011)
-                                        </button>
-                                    </h2>
-                                    <div id="educacion2" class="accordion-collapse collapse">
-                                        <div class="accordion-body">
-                                            <ul>
-                                                <li><strong>Tesis Doctoral</strong>: <em>“Test de bondad de ajuste para
-                                                        modelos de tipos de interés: Un enfoque basado en procesos
-                                                        empíricos”</em><br>
-                                                    Directores: Dr. Wenceslao González-Manteiga, Dr. Manuel Febrero
-                                                    Bande.<a
-                                                        href="https://investigacion.usc.gal/documentos/5d1df67129995204f766c2d1"
-                                                        target="tesis">(Repositorio USC)</a>
-                                                </li>
-                                            </ul>
-                                        </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#educacion2">
+                                        <strong>Doctor en Estadística e Investigación Operativa - Universidad de
+                                            Santiago de
+                                            Compostela-Galicia, España (2011)</strong>
+                                    </button>
+                                </h2>
+                                <div id="educacion2" class="accordion-collapse collapse">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><strong>Tesis Doctoral</strong>: <em>“Test de bondad de ajuste para
+                                                    modelos de tipos de interés: Un enfoque basado en procesos
+                                                    empíricos”</em><br>
+                                                Directores: Dr. Wenceslao González-Manteiga, Dr. Manuel Febrero
+                                                Bande.<a
+                                                    href="https://investigacion.usc.gal/documentos/5d1df67129995204f766c2d1"
+                                                    target="tesis">(Repositorio USC)</a>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
+                            </div>
 
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#educacion3">
-                                            Diploma de Estudios Avanzados</strong> - Universidad de Santiago de
-                                            Compostela-Galicia, España (2008)
-                                        </button>
-                                    </h2>
-                                    <div id="educacion3" class="accordion-collapse collapse">
-                                        <div class="accordion-body">
-                                            <ul>
-                                                <li><strong>Trabajo Tutelado</strong>: <em>“Test de bondad de ajuste
-                                                        para modelos de tipos de interés”</em><br>
-                                                    Directores: Dr. Wenceslao González-Manteiga..
-                                                </li>
-                                            </ul>
-                                        </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#educacion3">
+                                        <strong>Diploma de Estudios Avanzados - Universidad de Santiago de
+                                            Compostela-Galicia, España (2008)</strong>
+                                    </button>
+                                </h2>
+                                <div id="educacion3" class="accordion-collapse collapse">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><strong>Trabajo Tutelado</strong>: <em>“Test de bondad de ajuste
+                                                    para modelos de tipos de interés”</em><br>
+                                                Directores: Dr. Wenceslao González-Manteiga..
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
-
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#educacion4">
-                                            Magister Scientiarum en Modelos Aleatorios</strong> - Instituto Venezolano
-                                            de Investigaciones Científicas - Caracas - Venezuela (2002).
-                                        </button>
-                                    </h2>
-                                    <div id="educacion4" class="accordion-collapse collapse">
-                                        <div class="accordion-body">
-                                            <ul>
-                                                <li><strong>Trabajo de Grado:</strong> <em>“Análisis Multifractal para
-                                                        el Análisis de Datos Geofísicos”</em> <br>
-                                                    Directores: Dr. Wilfredo Urbina, Dr. David Márquez, Dra. Stella
-                                                    Brassesco
-                                                </li>
-                                            </ul>
-                                        </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#educacion4">
+                                        <strong>Magister Scientiarum en Modelos Aleatorios - Instituto Venezolano
+                                            de Investigaciones Científicas - Caracas - Venezuela (2002).</strong>
+                                    </button>
+                                </h2>
+                                <div id="educacion4" class="accordion-collapse collapse">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><strong>Trabajo de Grado:</strong> <em>“Análisis Multifractal para
+                                                    el Análisis de Datos Geofísicos”</em> <br>
+                                                Directores: Dr. Wilfredo Urbina, Dr. David Márquez, Dra. Stella
+                                                Brassesco
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
-
-                                <div class="accordion-item">
-                                    <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button"
-                                            data-bs-toggle="collapse" data-bs-target="#educacion5">
-                                            Licenciado en Matemáticas. Universiddad de Los Andes - Mérida - Venezuela
-                                            (1998).
-                                        </button>
-                                    </h2>
-                                    <div id="educacion5" class="accordion-collapse collapse">
-                                        <div class="accordion-body">
-                                            <ul>
-                                                <li><strong>Trabajo especial de Grado:</strong> <em>“Aproximación
-                                                        Poisson: Método de Chein-Stein”</em><br>
-                                                    Directora: MsC. María Victoria Sanchez.
-                                                </li>
-                                            </ul>
-                                        </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#educacion5">
+                                        <strong>Licenciado en Matemáticas. Universiddad de Los Andes - Mérida -
+                                            Venezuela
+                                            (1998).</strong>
+                                    </button>
+                                </h2>
+                                <div id="educacion5" class="accordion-collapse collapse">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li><strong>Trabajo especial de Grado:</strong> <em>“Aproximación
+                                                    Poisson: Método de Chein-Stein”</em><br>
+                                                Directora: MsC. María Victoria Sanchez.
+                                            </li>
+                                        </ul>
                                     </div>
                                 </div>
-
-                                <!-- Puedes seguir agregando más trabajos aquí -->
                             </div>
                         </div>
-                    </div>
-                </div>
-                <!-- Habilidades -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#habilidades">
-                            Habilidades
-                        </button>
-                    </h2>
-                    <div id="habilidades" class="accordion-collapse collapse">
-                        <div class="accordion-body">
-                            <div class="row align-items mb-3">
-                                <div class="col-10 text-align font-weight-bold">Programación en R:</div>
-                                <div class="col-9">
-                                    <div class="bar" style="width: 85%;">85%</div>
-                                </div>
-                                <div class="col-10 text-align font-weight-bold">Programación en Python:</div>
-                                <div class="col-9">
-                                    <div class="bar" style="width: 65%;">65%</div>
-                                </div>
-                                <div class="col-10 text-align font-weight-bold">HTML, CSS, Bootstrap, JAVA, Javascript:
-                                </div>
-                                <div class="col-9">
-                                    <div class="bar" style="width: 50%;">50%</div>
-                                </div>
-                                <div class="col-10 text-align font-weight-bold">Modelización Matemática y Estadística:
-                                </div>
-                                <div class="col-9">
-                                    <div class="bar" style="width: 90%;">90%</div>
-                                </div>
-                                <div class="col-10 text-align font-weight-bold">Desarrollo de Aplicaciones Web:</div>
-                                <div class="col-9">
-                                    <div class="bar" style="width: 65%;">65%</div>
-                                </div>
-                                <div class="col-10 text-align font-weight-bold">Manejo de Sistemas Operativos: Windows,
-                                    Linux, Mac-OS:</div>
-                                <div class="col-9">
-                                    <div class="bar" style="width: 90%;">90%</div>
-                                </div>
-                                <div class="col-10 text-align font-weight-bold">IA Generativa:</div>
-                                <div class="col-9">
-                                    <div class="bar" style="width: 75%;">75%</div>
-                                </div>
-                                <div class="col-10 text-align font-weight-bold">Machine Learning:</div>
-                                <div class="col-9">
-                                    <div class="bar" style="width: 75%;">75%</div>
-                                </div>
-                                <!-- <div class="col-3 text-align font-weight-bold">Aptitud 9:</div>
-                                <div class="col-9">
-                                    <div class="bar" style="width: 35%;">35%</div>
-                                </div>
-                                <div class="col-3 text-align font-weight-bold">Aptitud 10:</div>
-                                <div class="col-9">
-                                    <div class="bar" style="width: 35%;">35%</div>
-                                </div> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Idiomas -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header">
-                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#idiomas">
-                            Idiomas
-                        </button>
-                    </h2>
-                    <div id="idiomas" class="accordion-collapse collapse">
-                        <div class="accordion-body">
+                        <!-- Idiomas -->
+                        <div class="mt-4">
+                            <div class="section-title">IDIOMAS</div>
                             <ul>
-                                <li><strong>Español:</strong> Nativo.</li>
-                                <li><strong>Inglés:</strong> Intermedio</li>
-                                <li><strong>Euskera:</strong> Básico</li>
+                                <li><strong>Spanish:</strong> Native.</li>
+                                <li><strong>English:</strong> Intermediate </li>
+                                <li><strong>Euskera:</strong> Básico </li>
                             </ul>
+                        </div>
+                    </div>
+                    <!-- HABILIDADES PROFESIONALES -->
+                    <div class="mt-4">
+                        <div class="section-title">Habilidades</div>
+                        <div class="accordion" id="accordionskills">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#tskills">
+                                        <strong>Habilidades técnicas</strong>
+                                    </button>
+                                </h2>
+                                <div id="tskills" class="accordion-collapse collapse">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Desarrollo de modelos Matemáticos, de Machine Learning y técnicas
+                                                estadísticas para el análisis de datos y la predicción de
+                                                eventos.</li>
+                                            <li>Programación en Python, manejo de librerias: Pandas, Numpy,
+                                                Matplotlib,plotly,seaborn,
+                                                scikit-learn, statsmodels, SciPy </li>
+                                            <li>Programación en R, manejo de librerias: tidyverse, dplyr, ggplot2,
+                                                plotly, timeseries, etc</li>
+                                            <li>Programación en MATLAB, manejo de librerias: Statistics and Machine
+                                                Learning Toolbox</li>
+                                            <li>Manejo de herramientas para desarrollo de codigo: Rstudio, VS Code,
+                                                PyCharm, IA Generativa </li>
+                                            <li>Desarrollo de aplicaciones web tales a partir de HTML, CSS, Bootstrap,
+                                                JavaScript, JAVA, con Flask, Django </li>
+                                            <li>Edición de textos y presentaciones en LaTeX, Beamer, Office 365,
+                                                Markdown,</li>
+                                            <li>Desarrollo de aplicaciones con Shiny, Rmarkdown</li>
+                                            <li>Gestión y Manejo de Base de datos, MysQL, PostgreSQL,Squilite</li>
+                                            <li>Administración y gestión de sistemas operativos, Linux (Distribuciones:
+                                                Ubuntu, Mint, Redhat), Windows, Mac-OS</li>
+                                            <li>Conocimientos en metodologías de investigación y desarrollo de software
+                                            </li>
+                                            <li>Gestión y manejo de versiones de software: Git,GitHub </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#sskills">
+                                        <strong>Aptitudes</strong>
+                                    </button>
+                                </h2>
+                                <div id="sskills" class="accordion-collapse collapse">
+                                    <div class="accordion-body">
+                                        <ul>
+                                            <li>Comunicación y Liderazgo</li>
+                                            <li>Capacidad de organización, planificación y gestión</li>
+                                            <li>Interés por el aprendizaje autonomo y actualización continua en
+                                                tecnologías
+                                                emergentes
+                                            </li>
+                                            <li>Espíritu colaborativo y apertura al trabajo interdisciplinario</li>
+                                            <li>Pensamiento analítico riguroso y capacidad para resolver problemas</li>
+                                            <li>Compromiso con la ética profesional y la responsabilidad</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </main>
-    <script src="js/componentes.js"></script>
-    
+    <script src="js/componentes.js">
+        const lang = navigator.language || navigator.userLanguage;
+        if (lang.startsWith("en")) {
+            window.location.href = "resumen_cv_en.html";
+        } else {
+            window.location.href = "resuemn_cv.html";
+        }
+    </script>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
 </body>
 <div>
     <div id="pie"></div>
-    </div>
+</div>
 
 </html>
