@@ -8,6 +8,21 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
     
+<!-- Botón principal -->
+<button onclick="mostrarSelector()" class="btn-descarga">
+  📄 Descargar CV
+</button>
+
+<!-- Bocadillo/Popup con opciones -->
+<div id="selectorCV" class="popup" style="display: none;">
+  <p>¿Qué versión deseas descargar?</p>
+  <a href="cvs/CV_Detallado.pdf" download>📘 Detallado</a><br>
+  <a href="cvs/CV_Resumen.pdf" download>📗 Resumen</a><br>
+  <button onclick="cerrarSelector()">Cerrar</button>
+</div>
+
+
+
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-sm-0">
                     <li class="nav-item">
