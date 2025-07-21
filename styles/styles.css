@@ -243,4 +243,22 @@ body {
     transition: transform 0.3s ease-out;
     color:white;
   }
-  
+  .cv-popup {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #212925;
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  z-index: 1000;
+  font-size: 14px;
+}
+
+.cv-popup a {
+  color: #0df07e;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+}

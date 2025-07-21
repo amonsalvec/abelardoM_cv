@@ -70,7 +70,20 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+function togglePopup() {
+  const popup = document.getElementById("cvPopup");
+  const isVisible = popup.style.display === "block";
+  popup.style.display = isVisible ? "none" : "block";
+}
 
+window.addEventListener("click", function(e) {
+  const popup = document.getElementById("cvPopup");
+  const trigger = document.querySelector(".downloads");
+
+  if (!popup.contains(e.target) && !trigger.contains(e.target)) {
+    popup.style.display = "none";
+  }
+});
 // document.addEventListener("DOMContentLoaded", function () {
 //     document.getElementById("descargarCV").addEventListener("click", function () {
 //         const { jsPDF } = window.jspdf;

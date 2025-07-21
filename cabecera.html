@@ -8,18 +8,6 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
     
-<!-- Botón principal -->
-<button onclick="mostrarSelector()" class="btn-descarga">
-  📄 Descargar CV
-</button>
-
-<!-- Bocadillo/Popup con opciones -->
-<div id="selectorCV" class="popup" style="display: none;">
-  <p>¿Qué versión deseas descargar?</p>
-  <a href="cvs/CV_Detallado.pdf" download>📘 Detallado</a><br>
-  <a href="cvs/CV_Resumen.pdf" download>📗 Resumen</a><br>
-  <button onclick="cerrarSelector()">Cerrar</button>
-</div>
 
 
 
@@ -43,9 +31,16 @@
                     <li class="nav-item">
                         <a class="nav-link" href="academico.html">Académico</a>
                     </li>
-                    <!-- <li class="nav-item">
-                        <a class="nav-link" href="descargas.html">Descargars</a>
-                    </li> -->
+                    <li class="downloads position-relative"><a class="nav-link" href="#" onclick="togglePopup()" title="Download-CV">
+                        Descargar-CV <i class="bi bi-box-arrow-down" style="font-size: 18px;"></i></a>
+
+                    <!-- Popup tipo bocadillo -->
+                    <div id="cvPopup" class="cv-popup" style="display: none;">
+                        <p>Selecciona versión:</p>
+                        <a href="./pdfs/CV_Abelardo_Monsalve_.pdf" download>📘 Spanish-CV</a><br>
+                        <a href="./pdfs/ABELARDO MONSALVE CV.pdf" download>📗 English-CV</a>
+                    </div>
+                    </li>
                 </ul>
             </div>
         </div>
